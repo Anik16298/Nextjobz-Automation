@@ -1,0 +1,3 @@
+Global loader detected, waiting for it to disappear...
+Global loader disappeared.
+✓ Employer Page loaded
