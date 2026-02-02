@@ -7,6 +7,7 @@
   [![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=Playwright&logoColor=white)](https://playwright.dev/)
   [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
   [![Allure](https://img.shields.io/badge/Allure-Report-ff69b4?style=for-the-badge&logo=allure)](https://docs.qameta.io/allure/)
+  [![Playwright Report](https://img.shields.io/badge/Playwright-HTML%20Report-blue?style=for-the-badge&logo=playwright)](https://github.com/Anik16298/Nextjobz-Automation/tree/main/playwright-report)
   [![Status](https://img.shields.io/badge/Status-Success-brightgreen?style=for-the-badge)](./TEST_COVERAGE_REPORT.md)
 </div>
 
@@ -23,13 +24,13 @@ A state-of-the-art **automated testing framework** designed for the Nextjobz pla
 - 🏗️ **Robust Architecture**: Strict Page Object Model (POM) implementation.
 - 🔄 **Smart Synchronization**: Custom handling for global loaders and dynamic content.
 - 🎯 **Advanced Selectors**: Uses Playwright's best practices (`getByRole`, `getByText`) for resilient locators.
-- 📊 **Rich Reporting**: Beautiful, interactive **Allure Reports** with step-by-step breakdowns.
+- 📊 **Dual Reporting System**: Interactive **Allure Reports** + Standard **Playwright HTML Reports**.
 - 📸 **Visual Evidence**: Automatic screenshots and video recordings on test failures.
 - 🛡️ **Full Coverage**: Comprehensive testing for Auth, Profile, Job Search, and Site Navigation.
 
 ---
 
-## � Project Structure
+## 📂 Project Structure
 
 ```bash
 ├── 📁 pages/               # Page Objects (The "Brains")
@@ -73,6 +74,7 @@ npx playwright install chromium
 | **Run All Tests** | `npm test` |
 | **Run Structural Tour** | `npx playwright test tests/navigation_hierarchy.test.js` |
 | **Debug (Headed)** | `npx playwright test --headed` |
+| **Open Playwright Report** | `npx playwright show-report` |
 | **Generate Allure Report** | `npx allure generate allure-results --clean -o allure-report` |
 | **Open Allure Report** | `npx allure open allure-report` |
 

@@ -2,10 +2,10 @@
 
 ## Test Suite Summary
 **Total Tests**: 37  
-**Passed**: 36  
-**Skipped**: 1  
+**Passed**: 37  
 **Status**: ✅ **100% Success**  
 **Execution Time**: ~4 minutes
+**Environment**: Production (https://nextjobz.com.bd/)
 
 ---
 
@@ -124,11 +124,12 @@
 1. **BasePage.js** - Base class with common functionality
    - Global loader handling
    - Navigation methods
-   - Screenshot utilities
+   - Centralized scroll utilities
 
 2. **LoginPage.js** - Authentication
+   - Use centralized selectors from ConfigProvider
    - Login modal interaction
-   - Credential input
+   - Submission retry logic
    - Login verification
 
 3. **ProfilePage.js** - User profile management
@@ -164,6 +165,8 @@
 13. **ContactPage.js**
 14. **EmployerPage.js**
 15. **FAQPage.js**
+16. **JobSearchPage.js**
+17. **RegistrationPage.js**
 
 ---
 
@@ -172,32 +175,18 @@
 ### 1. **Robust Search Mechanism**
 - Automatic fallback to "Data Analyst" if search yields no results
 - Ensures tests always have data to verify
-- Handles dynamic content loading
 
 ### 2. **Global Loader Handling**
 - Automatic detection and waiting for "Steer Your Life" splash screen
 - Implemented in BasePage for all tests
-- Prevents timing issues
 
-### 3. **Profile Complete Coverage**
-All authenticated user features tested:
-- Dashboard with statistics
-- Profile information
-- Saved jobs management
-- Recommended jobs
-- Applied jobs tracking
-- Enrolled trainings
-- Account settings
-- Logout functionality
+### 3. **Dual Reporting System**
+- **Allure Report**: Rich, interactive dashboards.
+- **Playwright HTML Report**: Detailed step-by-step browser trace.
 
-### 4. **Full Site Navigation**
-Every public and authenticated page covered:
-- Main landing page with all sections
-- Career resources (Development, Abroad, Guidance)
-- Company information (About, Team, Contact)
-- Legal pages (Terms, Privacy, FAQ)
-- Employer portal
-- Learning resources
+### 4. **Centralized Configuration**
+- `ConfigProvider.js` manages URLs, credentials, and global selectors.
+- Easy environment switching (Dev to Production).
 
 ---
 
@@ -205,100 +194,27 @@ Every public and authenticated page covered:
 
 ### Run All Tests
 ```bash
-npx playwright test --project=chromium --reporter=list
+npm test
 ```
 
-### Run Specific Test Suites
+### Run Structural Tour
 ```bash
-# Profile tests only
-npx playwright test tests/profile.test.js --project=chromium
-
-# Search functionality
-npx playwright test tests/search_functionality.test.js --project=chromium
-
-# Landing page
-npx playwright test tests/landing_page.test.js --project=chromium
+npx playwright test tests/navigation_hierarchy.test.js
 ```
-
-### Generate HTML Report
-```bash
-npx playwright test --reporter=html
-npx playwright show-report
-```
-
----
-
-## Screenshots Generated
-
-All tests generate screenshots for verification:
-- `profile_logged_in_state.png` - User logged in
-- `profile_menu_complete.png` - Full profile menu
-- `dashboard_page_view.png` - Dashboard with statistics
-- `profile_page_view.png` - User profile details
-- `saved_jobz_page.png` - Saved jobs list
-- `recommended_jobz_page.png` - Recommended jobs
-- `applied_jobz_page.png` - Applied jobs tracking
-- `enrolled_trainings_page.png` - Training enrollments
-- `settings_page_view.png` - Account settings
-- `after_successful_logout.png` - Post-logout state
-- `landing_page_full.png` - Full landing page
-- `career_guidance_articles.png` - Career articles
-- And more...
-
----
-
-## Configuration
-
-### Playwright Config (`playwright.config.js`)
-- Base URL: `https://dev.nextjobz.com.bd`
-- Browser: Chromium
-- Headless mode
-- Screenshot on failure
-- Video recording on failure
-- Ignore HTTPS errors: true
-
-### Credentials (`utils/ConfigProvider.js`)
-- Phone: 01600000006
-- Password: (configured)
-
----
-
-## Maintenance Notes
-
-### Adding New Tests
-1. Create page object in `pages/` directory
-2. Extend `BasePage` for common functionality
-3. Create test file in `tests/` directory
-4. Use existing patterns for consistency
-
-### Updating Locators
-- All locators use Playwright's recommended selectors
-- Prefer `getByRole`, `getByText` over CSS selectors
-- Use `.first()` for multiple matches
-- Add timeouts for dynamic content
-
-### Best Practices Followed
-- Page Object Model (POM) architecture
-- DRY principle - reusable components
-- Explicit waits over implicit waits
-- Meaningful test names and assertions
-- Comprehensive logging
-- Screenshot evidence for all tests
 
 ---
 
 ## Success Metrics
 
 ✅ **100% test pass rate**  
-✅ **Complete site coverage** - All 14+ sections tested  
-✅ **Full user journey** - From login to logout  
-✅ **Robust error handling** - Fallback mechanisms in place  
-✅ **Maintainable code** - Clean POM structure  
-✅ **Fast execution** - ~4 minutes for full suite  
+✅ **Complete site coverage** - All 16+ sections tested  
+✅ **Full user journey** - From login up to private profile  
+✅ **Robust architecture** - Clean POM structure  
+✅ **Cross-Report verified** - Allure & HTML passed  
 
 ---
 
-**Last Updated**: February 1, 2026  
+**Last Updated**: February 2, 2026  
 **Framework**: Playwright with JavaScript  
-**Test Count**: 37 tests across 9 test files  
-**Page Objects**: 15 page classes
+**Test Count**: 37 tests  
+**Page Objects**: 17 page classes
