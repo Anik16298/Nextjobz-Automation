@@ -1,0 +1,14 @@
+{
+    "name": "nextjobz-automation",
+    "version": "1.0.0",
+    "description": "Nextjobz Playwright UI Automation Framework",
+    "type": "module",
+    "scripts": {
+        "test": "npx playwright test"
+    },
+    "devDependencies": {
+        "@playwright/test": "^1.40.0",
+        "allure-commandline": "^2.36.0",
+        "allure-playwright": "^3.4.5"
+    }
+}
