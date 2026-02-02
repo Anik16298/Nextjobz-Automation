@@ -10,7 +10,7 @@ export default defineConfig({
         ['allure-playwright', { outputFolder: 'allure-results' }]
     ],
     use: {
-        baseURL: 'https://dev.nextjobz.com.bd/',
+        baseURL: 'https://nextjobz.com.bd/',
         headless: true,
         viewport: { width: 1280, height: 720 },
         ignoreHTTPSErrors: true,

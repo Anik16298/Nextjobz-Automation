@@ -1,10 +1,10 @@
 const config = {
     credentials: {
-        phone: '01600000006',
+        phone: '01831422264',
         password: '@Abc1234'
     },
     timeout: 30000,
-    baseUrl: 'https://dev.nextjobz.com.bd/'
+    baseUrl: 'https://nextjobz.com.bd/'
 };
 
 export default config;
