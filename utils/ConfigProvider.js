@@ -1,10 +1,15 @@
+import dotenv from 'dotenv';
+import path from 'path';
+
+dotenv.config({ path: path.resolve(process.cwd(), '.env') });
+
 const config = {
     credentials: {
-        phone: '01831422264',
-        password: '@Abc1234'
+        phone: process.env.PHONE || '01831422264',
+        password: process.env.PASSWORD || '@Abc1234'
     },
     timeout: 30000,
-    baseUrl: 'https://nextjobz.com.bd/',
+    baseUrl: process.env.BASE_URL || 'https://nextjobz.com.bd/',
     selectors: {
         signInXPath: "//button[normalize-space()='Sign In']",
         phoneInputSelector: 'input[type="tel"]',

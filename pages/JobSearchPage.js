@@ -3,46 +3,43 @@ import { BasePage } from './BasePage.js';
 export class JobSearchPage extends BasePage {
     constructor(page) {
         super(page);
-        this.searchBox = page.getByRole('textbox').first();
-        this.searchButton = page.locator('button').filter({ hasText: /^Search$/i }).first();
-        // Use a broader locator for the cards
-        this.jobCard = page.locator('.MuiPaper-root').filter({ hasText: /(Jobz|Vacancies|Deadline|Apply|Details)/i });
+        this.url = '/job-search?pageNo=1&pageSize=10&activeTab=0';
+
+        // Locators for the Job Search / Listing page
+        this.filterContainer = page.locator('.MuiGrid-root').filter({ hasText: /Filter|Category|Location/i }).first();
+        this.jobListContainer = page.locator('.MuiGrid-root').filter({ hasText: /Jobz Found|Vacancies/i });
+        this.jobCards = page.locator('.MuiPaper-root').filter({ hasText: /Apply|View Details/i });
+
+        // Error handling fallback for guest redirects
+        this.homePageHeader = page.locator('h1, h2, h3').filter({ hasText: /Find your Next Step|Smarter Career Building/i }).first();
     }
 
-    async searchForJob(keyword) {
-        console.log(`Searching for job: ${keyword}`);
-        await this.searchBox.waitFor({ state: 'visible', timeout: 10000 });
-
-        await this.searchBox.focus();
-        await this.searchBox.click();
-        await this.page.keyboard.press('Control+A');
-        await this.page.keyboard.press('Backspace');
-        await this.searchBox.fill(keyword);
-
-        await this.page.waitForTimeout(500);
-        console.log('Clicking the Search button...');
-        await this.searchButton.click();
-
-        // Wait for results to load or URL to change
-        try {
-            await this.page.waitForURL(/job-search/i, { timeout: 10000 });
-        } catch (e) {
-            console.log('URL did not change to job-search, maybe already there or results loaded in-place.');
-        }
+    async navigate() {
+        await this.page.goto(this.url);
         await this.page.waitForLoadState('networkidle');
-        await this.waitForGlobalLoader();
     }
 
-    async robustSearch(keyword) {
-        await this.searchForJob(keyword);
-        const count = await this.getResultCount();
-        if (count === 0) {
-            console.log(`No results for "${keyword}". Falling back to "Data Analyst" as requested.`);
-            await this.searchForJob('Data Analyst');
+    async isLoaded() {
+        await this.page.waitForLoadState('networkidle');
+        try {
+            await Promise.race([
+                this.jobCards.first().waitFor({ state: 'visible', timeout: 5000 }),
+                this.filterContainer.waitFor({ state: 'visible', timeout: 5000 }),
+                this.homePageHeader.waitFor({ state: 'visible', timeout: 5000 })
+            ]);
+
+            // Check if redirected to home
+            if (await this.homePageHeader.isVisible()) {
+                console.log('Job Search Page redirected to Home Page content.');
+                return 'HomePage';
+            }
+            return true;
+        } catch (e) {
+            return false;
         }
     }
 
-    async getResultCount() {
-        return await this.jobCard.count();
+    async getJobCount() {
+        return await this.jobCards.count();
     }
 }

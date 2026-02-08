@@ -1,15 +1,15 @@
 import { test, expect } from '@playwright/test';
 import { LoginPage } from '../pages/LoginPage.js';
-import { ProfilePage } from '../pages/ProfilePage.js';
+import { ProfileSection } from '../pages/ProfileSection.js';
 import config from '../utils/ConfigProvider.js';
 
 test.describe('User Profile and Dashboard - Complete Coverage', () => {
     let loginPage;
-    let profilePage;
+    let profileSection;
 
     test.beforeEach(async ({ page }) => {
         loginPage = new LoginPage(page);
-        profilePage = new ProfilePage(page);
+        profileSection = new ProfileSection(page);
 
         // Perform login
         await loginPage.navigate('/');
@@ -20,22 +20,22 @@ test.describe('User Profile and Dashboard - Complete Coverage', () => {
 
         // Wait for login to complete and modal to close
         await page.waitForTimeout(3000);
-        await profilePage.waitForGlobalLoader();
+        await profileSection.waitForGlobalLoader();
     });
 
     test('should display user profile avatar and name after login', async ({ page }) => {
-        const isLoggedIn = await profilePage.isLoggedIn();
+        const isLoggedIn = await profileSection.isLoggedIn();
         expect(isLoggedIn, 'User avatar should be visible').toBeTruthy();
 
         // Verify user name is visible
-        await profilePage.openProfileMenu();
-        await expect(profilePage.userName).toBeVisible({ timeout: 5000 });
+        await profileSection.openProfileMenu();
+        await expect(profileSection.userName).toBeVisible({ timeout: 5000 });
 
         await page.screenshot({ path: 'test-results/profile_logged_in_state.png' });
     });
 
     test('should display all profile menu items', async ({ page }) => {
-        const menuItems = await profilePage.verifyMenuItemsVisible();
+        const menuItems = await profileSection.verifyMenuItemsVisible();
 
         console.log('Profile Menu Items:', menuItems);
 
@@ -53,7 +53,7 @@ test.describe('User Profile and Dashboard - Complete Coverage', () => {
     });
 
     test('should navigate to Profile page', async ({ page }) => {
-        await profilePage.navigateToProfile();
+        await profileSection.navigateToProfile();
         await page.waitForTimeout(2000);
 
         // Verify we're on a profile-related page
@@ -64,7 +64,7 @@ test.describe('User Profile and Dashboard - Complete Coverage', () => {
     });
 
     test('should navigate to Dashboard page', async ({ page }) => {
-        await profilePage.navigateToDashboard();
+        await profileSection.navigateToDashboard();
         await page.waitForTimeout(2000);
 
         const url = page.url();
@@ -74,7 +74,7 @@ test.describe('User Profile and Dashboard - Complete Coverage', () => {
     });
 
     test('should navigate to Saved Jobz page', async ({ page }) => {
-        await profilePage.navigateToSavedJobz();
+        await profileSection.navigateToSavedJobz();
         await page.waitForTimeout(2000);
 
         const url = page.url();
@@ -84,7 +84,7 @@ test.describe('User Profile and Dashboard - Complete Coverage', () => {
     });
 
     test('should navigate to Recommended Jobz page', async ({ page }) => {
-        await profilePage.navigateToRecommendedJobz();
+        await profileSection.navigateToRecommendedJobz();
         await page.waitForTimeout(2000);
 
         const url = page.url();
@@ -94,7 +94,7 @@ test.describe('User Profile and Dashboard - Complete Coverage', () => {
     });
 
     test('should navigate to Applied Jobz page', async ({ page }) => {
-        await profilePage.navigateToAppliedJobz();
+        await profileSection.navigateToAppliedJobz();
         await page.waitForTimeout(2000);
 
         const url = page.url();
@@ -104,7 +104,7 @@ test.describe('User Profile and Dashboard - Complete Coverage', () => {
     });
 
     test('should navigate to Enrolled Trainings page', async ({ page }) => {
-        await profilePage.navigateToEnrolledTrainings();
+        await profileSection.navigateToEnrolledTrainings();
         await page.waitForTimeout(2000);
 
         const url = page.url();
@@ -114,7 +114,7 @@ test.describe('User Profile and Dashboard - Complete Coverage', () => {
     });
 
     test('should navigate to Settings page', async ({ page }) => {
-        await profilePage.navigateToSettings();
+        await profileSection.navigateToSettings();
         await page.waitForTimeout(2000);
 
         const url = page.url();
@@ -124,10 +124,10 @@ test.describe('User Profile and Dashboard - Complete Coverage', () => {
     });
 
     test('should successfully logout user', async ({ page }) => {
-        await profilePage.logout();
+        await profileSection.logout();
 
         // Wait for global loader to disappear after logout
-        await profilePage.waitForGlobalLoader();
+        await profileSection.waitForGlobalLoader();
         await page.waitForLoadState('networkidle');
         await page.waitForTimeout(3000);
 

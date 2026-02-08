@@ -1,6 +1,6 @@
 import { BasePage } from './BasePage.js';
 
-export class ProfilePage extends BasePage {
+export class ProfileSection extends BasePage {
     constructor(page) {
         super(page);
         // Avatar and menu
