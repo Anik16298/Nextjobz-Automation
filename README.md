@@ -63,6 +63,7 @@ npm install
 
 # Install Playwright browsers
 npx playwright install chromium
+```
 
 ### 3. Environment Setup
 Create a `.env` file in the root directory with your credentials:
@@ -70,7 +71,6 @@ Create a `.env` file in the root directory with your credentials:
 PHONE=your_phone_number
 PASSWORD=your_password
 BASE_URL=https://nextjobz.com.bd/
-```
 ```
 
 ---
