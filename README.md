@@ -100,5 +100,9 @@ We currently maintain **100% test pass rate** across all critical paths:
 ---
 
 <div align="center">
+  <sub><b>Nextjobz Automation Framework</b></sub>
+  <br>
   <sub>Dedicated to the Strategic Advancement of Quality Engineering at Nextjobz</sub>
+  <br>
+  <sub>Maintained by <a href="https://github.com/Anik16298">Anik16298</a></sub>
 </div>
