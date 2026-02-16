@@ -1,8 +1,7 @@
 import { test, expect } from '@playwright/test';
 import {
     HomePage,
-    JobzPage,
-    CareerDevelopmentPage,
+    JobSearchPage,
     CareerAbroadPage,
     CampusConnectPage,
     CareerGuidancePage,
@@ -13,7 +12,7 @@ import {
     OurTeamPage,
     ContactPage,
     FAQPage,
-    ProfilePage
+    ProfileSection
 } from '../pages/index.js';
 import config from '../utils/ConfigProvider.js';
 
@@ -27,15 +26,15 @@ test.describe('Nextjobz Website Structural Tour', () => {
     });
 
     test('Sequence 2: Jobz Listing', async ({ page }) => {
-        const jobzPage = new JobzPage(page);
-        await jobzPage.navigate('/job');
+        const jobzPage = new JobSearchPage(page);
+        await jobzPage.navigate();
         expect(await jobzPage.isLoaded()).toBeTruthy();
         console.log('✓ Jobz Page loaded');
     });
 
     test('Sequence 3: Career Development', async ({ page }) => {
-        const careerDev = new CareerDevelopmentPage(page);
-        await careerDev.navigate('/career-guidance'); // Nextjobz uses /career-guidance for this section
+        const careerDev = new CareerGuidancePage(page);
+        await careerDev.navigate();
         expect(await careerDev.isWorking()).toBeTruthy();
         console.log('✓ Career Development loaded');
     });
@@ -78,7 +77,7 @@ test.describe('Nextjobz Website Structural Tour', () => {
 
     test('Sequence 9: Login & User Flow', async ({ page }) => {
         const loginPage = new LoginPage(page);
-        const profilePage = new ProfilePage(page);
+        const profilePage = new ProfileSection(page);
 
         await loginPage.navigate('/');
         await loginPage.openLoginModal();

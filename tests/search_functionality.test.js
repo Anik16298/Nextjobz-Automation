@@ -10,10 +10,13 @@ test.describe('Nextjobz Extensive Job Search', () => {
     });
 
     const searchTerms = [
-        'Data Analyst',
-        'Engineer',
-        'Assistant Architect',
-        'Software Developer'
+        'Data Analyst', 'Software Engineer', 'Project Manager', 'Architect',
+        'QA Engineer', 'DevOps', 'Product Owner', 'UI/UX Designer',
+        'Accountant', 'Marketing Manager', 'HR Specialist', 'Sales Executive',
+        'Civil Engineer', 'Mechanical Engineer', 'Electrical Engineer', 'Doctor',
+        'Nurse', 'Teacher', 'Graphic Designer', 'Content Writer',
+        'Digital Marketing', 'Data Scientist', 'Business Analyst', 'Customer Support',
+        'Banker', 'Receptionist', 'Driver', 'Security Guard'
     ];
 
     for (const term of searchTerms) {

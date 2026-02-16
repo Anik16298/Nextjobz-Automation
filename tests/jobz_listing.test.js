@@ -1,12 +1,12 @@
 import { test, expect } from '@playwright/test';
-import { JobzPage } from '../pages/JobzPage.js';
+import { JobSearchPage } from '../pages/JobSearchPage.js';
 
 test.describe('Nextjobz Job Listing Functionality', () => {
     let jobzPage;
 
     test.beforeEach(async ({ page }) => {
-        jobzPage = new JobzPage(page);
-        await jobzPage.navigate('/job');
+        jobzPage = new JobSearchPage(page);
+        await jobzPage.navigate();
     });
 
     test('should display job filters and list of jobs', async ({ page }) => {

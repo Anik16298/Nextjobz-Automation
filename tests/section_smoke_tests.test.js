@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import { CareerDevelopmentPage } from '../pages/CareerDevelopmentPage.js';
+import { CareerGuidancePage } from '../pages/CareerGuidancePage.js';
 import { CareerAbroadPage } from '../pages/CareerAbroadPage.js';
 import { CampusConnectPage } from '../pages/CampusConnectPage.js';
 import { AboutUsPage } from '../pages/AboutUsPage.js';
@@ -9,8 +9,8 @@ import { ContactPage } from '../pages/ContactPage.js';
 test.describe('Nextjobz Section Pages Smoke Tests', () => {
 
     test('Career Development section should load', async ({ page }) => {
-        const careerPage = new CareerDevelopmentPage(page);
-        await careerPage.navigate('/career-guidance'); // Updated from /career-development based on screenshot URL
+        const careerPage = new CareerGuidancePage(page);
+        await careerPage.navigate();
         const working = await careerPage.isWorking();
         expect(working, 'Career Development page should be working').toBeTruthy();
     });

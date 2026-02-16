@@ -1,18 +1,15 @@
 import { test, expect } from '@playwright/test';
 import { LoginPage } from '../pages/LoginPage.js';
 import { JobSearchPage } from '../pages/JobSearchPage.js';
-import { JobzPage } from '../pages/JobzPage.js';
 import config from '../utils/ConfigProvider.js';
 
 test.describe('Nextjobz Full Site Regression', () => {
     let loginPage;
     let searchPage;
-    let jobzPage;
 
     test.beforeEach(async ({ page }) => {
         loginPage = new LoginPage(page);
         searchPage = new JobSearchPage(page);
-        jobzPage = new JobzPage(page);
 
         await loginPage.navigate('/');
         // navigate calls waitForGlobalLoader
@@ -42,15 +39,15 @@ test.describe('Nextjobz Full Site Regression', () => {
 
         // 3. BROWSE JOBZ
         console.log('Step 3: Browse Jobz Page');
-        await jobzPage.navigate('/job'); // Go to dedicated listing
+        await searchPage.navigate(); // Go to dedicated listing
         // navigate waits for loader
 
-        const listingCount = await jobzPage.getJobCount();
+        const listingCount = await searchPage.getJobCount();
         console.log(`Jobz Page Listing Count: ${listingCount}`);
         expect(listingCount).toBeGreaterThanOrEqual(0); // Should be valid number
 
         // Verify UI elements
-        const filtersVisible = await jobzPage.yearFilterVisible();
+        const filtersVisible = await searchPage.isLoaded();
         console.log(`Filters Valid: ${filtersVisible}`);
 
         // 4. NAVIGATION TO OTHER SECTIONS
@@ -58,7 +55,7 @@ test.describe('Nextjobz Full Site Regression', () => {
         const campusLink = page.locator('text=Campus Connect').first();
         if (await campusLink.isVisible()) {
             await campusLink.click({ force: true });
-            await jobzPage.waitForGlobalLoader();
+            await searchPage.waitForGlobalLoader();
             await expect(page).toHaveURL(/campus-connect/i);
             console.log('Campus Connect verified');
         } else {
