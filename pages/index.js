@@ -1,6 +1,7 @@
 export * from './BasePage.js';
 export * from './HomePage.js';
 export * from './JobSearchPage.js';
+export * from './JobDetailsPage.js';
 export * from './CareerGuidancePage.js';
 export * from './CareerAbroadPage.js';
 export * from './CampusConnectPage.js';
@@ -13,3 +14,8 @@ export * from './AboutUsPage.js';
 export * from './OurTeamPage.js';
 export * from './ContactPage.js';
 export * from './FAQPage.js';
+export * from './MidCareerPage.js';
+export * from './LearningLabPage.js';
+export * from './HiringAdvicePage.js';
+export * from './TermsOfUsePage.js';
+export * from './PrivacyPolicyPage.js';

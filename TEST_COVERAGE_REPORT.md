@@ -90,6 +90,9 @@
 8. **CareerAbroadPage.js** - International opportunities.
 9. **CampusConnectPage.js** - University and event logic.
 10. **AboutUsPage.js**, **ContactPage.js**, **EmployerPage.js**, **FAQPage.js**, **OurTeamPage.js** - Static content verification.
+11. **JobDetailsPage.js** - **(New)** Detailed vacancy views and application logic.
+12. **MidCareerPage.js**, **LearningLabPage.js**, **HiringAdvicePage.js** - **(New)** Stage-specific career resources.
+13. **TermsOfUsePage.js**, **PrivacyPolicyPage.js** - **(New)** Legal and compliance document verification.
 
 ---
 
