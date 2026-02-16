@@ -65,7 +65,9 @@ test.describe('Nextjobz Website Structural Tour', () => {
         const employer = new EmployerPage(page);
         await employer.navigate('/employer');
         expect(await employer.isWorking()).toBeTruthy();
-        console.log('✓ Employer Page loaded');
+        // Verify key buttons
+        await expect(employer.postJobBtn.first()).toBeVisible({ timeout: 5000 });
+        console.log('✓ Employer Page & Actions verified');
     });
 
     test('Sequence 8: Registration Page', async ({ page }) => {
