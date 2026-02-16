@@ -20,25 +20,52 @@ export class JobseekerProfilePage extends BasePage {
         this.referenceSection = page.locator('h6:has-text("Reference")');
         this.otherInfoSection = page.locator('h6:has-text("Other Information")');
 
-        // Buttons
+        // Buttons & Icons
         this.addExperienceBtn = page.getByRole('button', { name: /Add Another Work Experience/i });
         this.addEducationBtn = page.getByRole('button', { name: /Add Another Education/i });
         this.addSkillBtn = page.getByRole('button', { name: /Add Another Skill/i });
         this.addCertificationBtn = page.getByRole('button', { name: /Add Another Certification/i });
-        this.addProjectBtn = page.getByRole('button', { name: /Add Project/i });
-        this.addVolunteerBtn = page.getByRole('button', { name: /Add Club and Volunteer Experience/i });
-        this.addLinkBtn = page.getByRole('button', { name: /Add Another Link/i });
-        this.addAccomplishmentBtn = page.getByRole('button', { name: /Add Accomplishment/i });
-        this.addLanguageBtn = page.getByRole('button', { name: /Add Language/i });
-        this.addReferenceBtn = page.getByRole('button', { name: /Add Another Reference/i });
+        this.saveBtn = page.getByRole('button', { name: /Save|Update/i });
+        this.cancelBtn = page.getByRole('button', { name: /Cancel/i });
 
         // Progress indicator
         this.profilePercentage = page.locator('.progress-text').or(page.locator('text=/100%/')).first();
+
+        // Modal Locators
+        this.editModal = page.locator('div[role="dialog"]');
     }
 
     async navigate() {
         await this.page.goto(this.url);
         await this.page.waitForLoadState('networkidle');
+    }
+
+    async clickEditForSection(sectionName) {
+        // Find the section container and then the edit button within it
+        const sectionHeader = this.page.locator('h6').filter({ hasText: new RegExp(`^${sectionName}$`, 'i') }).first();
+        const container = sectionHeader.locator('xpath=..'); // Parent container
+        const editIcon = container.locator('svg[data-testid="EditIcon"], .MuiIconButton-root').first();
+
+        await editIcon.scrollIntoViewIfNeeded();
+        await editIcon.click();
+        await this.editModal.waitFor({ state: 'visible', timeout: 5000 });
+    }
+
+    async updatePersonalDetails(details) {
+        await this.clickEditForSection('Personal Details');
+
+        if (details.bio) {
+            const bioField = this.page.getByLabel(/Bio|About|Summary/i).first();
+            await bioField.fill(details.bio);
+        }
+
+        if (details.location) {
+            const locField = this.page.getByLabel(/Location|City/i).first();
+            await locField.fill(details.location);
+        }
+
+        await this.saveBtn.first().click();
+        await this.waitForGlobalLoader();
     }
 
     async verifyAllSectionsVisible() {
@@ -52,7 +79,6 @@ export class JobseekerProfilePage extends BasePage {
         const results = {};
         for (const name of sections) {
             try {
-                // Construct locator dynamically to be sure
                 const locator = this.page.locator('h6').filter({ hasText: new RegExp(`^${name}$`, 'i') }).first();
                 await locator.scrollIntoViewIfNeeded();
                 results[name] = await locator.isVisible({ timeout: 5000 });

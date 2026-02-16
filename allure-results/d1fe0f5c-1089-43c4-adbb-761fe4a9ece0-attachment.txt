@@ -1,0 +1,2 @@
+Case: Registration Validation
+Registration error found: null

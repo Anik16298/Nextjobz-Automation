@@ -1,4 +1,5 @@
 import { BasePage } from './BasePage.js';
+import config from '../utils/ConfigProvider.js';
 
 export class ProfileSection extends BasePage {
     constructor(page) {
@@ -6,7 +7,7 @@ export class ProfileSection extends BasePage {
         // Avatar and menu
         this.profileAvatar = page.locator('.MuiAvatar-root').first();
         this.profileDropdown = page.locator('div[role="menu"], ul[role="menu"]').first();
-        this.userName = page.getByText(/Nusrat Jahan/i).first();
+        this.userName = page.getByText(new RegExp(config.credentials.displayName, 'i')).first();
 
         // Menu items - using text-based locators for reliability
         this.profileMenuItem = page.getByText('Profile', { exact: true });

@@ -1,0 +1,193 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - generic [ref=e7]:
+      - link "App Logo" [ref=e9] [cursor=pointer]:
+        - /url: /
+        - img "App Logo" [ref=e10]
+      - generic [ref=e11]:
+        - link "Jobz" [ref=e13] [cursor=pointer]:
+          - /url: /job-search?pageNo=1&pageSize=10&activeTab=0
+        - link "Career Development" [ref=e15] [cursor=pointer]:
+          - /url: /career-guidance
+        - link "Career Abroad" [ref=e17] [cursor=pointer]:
+          - /url: /career-abroad
+        - link "Campus Connect" [ref=e19] [cursor=pointer]:
+          - /url: /campus-connect
+      - generic [ref=e20]:
+        - button "Sign In" [ref=e21] [cursor=pointer]: Sign In
+        - button "Create Account" [ref=e22] [cursor=pointer]: Create Account
+        - separator [ref=e24]
+        - link "For Employers" [ref=e26] [cursor=pointer]:
+          - /url: /
+    - generic [ref=e27]:
+      - generic [ref=e28]:
+        - img "Contact Us Banner" [ref=e29]
+        - generic [ref=e30]:
+          - heading "Get In Touch" [level=3] [ref=e31]
+          - paragraph [ref=e32]: Have questions, feedback, or need assistance? At nextjobz, we’re here to help you connect with the right opportunities or top talent. Reach out through our contact form, email, or phone, and our friendly team will respond promptly. Your voice matters—let’s make your job search or hiring experience smooth, fast, and successful.
+      - generic [ref=e34]:
+        - generic [ref=e35]:
+          - generic [ref=e36]:
+            - heading "Get in Touch" [level=4] [ref=e37]
+            - paragraph [ref=e38]: Have questions or need help? Reach out to the nextjobz team via email, phone, or our contact form. We’re here to support your job search or hiring journey quickly and easily.
+            - generic [ref=e39]:
+              - generic [ref=e40]:
+                - img [ref=e42]
+                - paragraph [ref=e45]: Location
+              - paragraph [ref=e46]: 198 Bir Uttam, Mir Shawkat Sarak, Gulshan Link Road, Tejgaon, Dhaka-1208.
+              - generic [ref=e47]:
+                - img [ref=e48]
+                - paragraph [ref=e50]: Email
+              - paragraph [ref=e51]: support@nextjobz.work
+              - generic [ref=e52]:
+                - img [ref=e53]
+                - paragraph [ref=e58]: Phone
+              - paragraph [ref=e59]: +88 01335172200
+          - iframe [ref=e61]:
+            - generic [ref=f2e3]:
+              - generic:
+                - button "Keyboard shortcuts"
+              - region "Map" [ref=f2e4]
+              - generic [ref=f2e5]:
+                - iframe [ref=f2e27]:
+                  
+                - generic [ref=f2e31]:
+                  - generic [ref=f2e32]:
+                    - generic [ref=f2e33]: Akij House
+                    - generic [ref=f2e34]: 198 Bir Uttam Mir Shawkat Sarak, Dhaka 1208
+                  - link "Get directions to this location on Google Maps." [ref=f2e37] [cursor=pointer]:
+                    - /url: https://maps.google.com/maps/dir//Akij+House+198+Bir+Uttam+Mir+Shawkat+Sarak+Dhaka+1208/@23.7695739,90.4103459,16z/data=!4m5!4m4!1m0!1m2!1m1!1s0x3755c778d94ba6d1:0x89051c19123ad2d4
+                    - generic [ref=f2e39]: Directions
+                  - link "View larger map" [ref=f2e43] [cursor=pointer]:
+                    - /url: https://maps.google.com/maps?ll=23.769574,90.410346&z=16&t=m&hl=en&gl=BD&mapclient=embed&q=Akij%20House%20198%20Bir%20Uttam%20Mir%20Shawkat%20Sarak%20Dhaka%201208
+                - button "Map camera controls" [ref=f2e45] [cursor=pointer]
+                - button "Show satellite imagery" [ref=f2e48] [cursor=pointer]:
+                  - generic [ref=f2e52]:
+                    - region [ref=f2e53]
+                    - iframe [ref=f2e59]:
+                      
+                - img "Google" [ref=f2e61]
+                - generic [ref=f2e62]:
+                  - button "Keyboard shortcuts" [ref=f2e68] [cursor=pointer]
+                  - generic [ref=f2e73]: Map data ©2026
+                  - link "Terms (opens in new tab)" [ref=f2e78] [cursor=pointer]:
+                    - /url: https://www.google.com/intl/en_BD/help/terms_maps.html
+                    - text: Terms
+                  - link "Report a map error" [ref=f2e83] [cursor=pointer]:
+                    - /url: https://www.google.com/maps/@23.7695739,90.4103459,16z/data=!10m1!1e1!12b1?source=apiv3&rapsrc=apiv3
+        - generic [ref=e62]:
+          - generic [ref=e64]:
+            - heading "Connect with nextjobz" [level=5] [ref=e65]
+            - paragraph [ref=e66]: Reach out to nextjobz — where collaboration sparks opportunity and every connection lights up a new journey.
+            - generic [ref=e67]:
+              - generic [ref=e69]:
+                - generic [ref=e71]: Enter Full Name *
+                - generic [ref=e73]:
+                  - textbox "Full Name" [active] [ref=e74]: QA Automation
+                  - group
+              - generic [ref=e76]:
+                - generic [ref=e78]: Enter Email *
+                - generic [ref=e80]:
+                  - textbox "nextjobzgmail.com" [ref=e81]
+                  - group
+              - generic [ref=e84]:
+                - generic [ref=e85]:
+                  - generic [ref=e87]: Enter Phone Number *
+                  - textbox "01XXXXXXXXX" [ref=e88]
+                  - button "+88" [ref=e90]: "+88"
+                - paragraph
+              - generic [ref=e93]:
+                - generic [ref=e95]: Write A Message *
+                - textbox "Write A Message" [ref=e96]
+                - paragraph
+              - button "Submit" [ref=e97] [cursor=pointer]
+          - img "Submit" [ref=e99]
+      - generic [ref=e101]:
+        - generic [ref=e102]:
+          - heading "We're Not Waiting for the Future of Work, We're Building It." [level=2] [ref=e103]:
+            - text: We're Not Waiting for the
+            - generic [ref=e104]:
+              - text: Future of Work,
+              - text: We're Building It.
+          - paragraph [ref=e105]: Whether you're a business leader, HR innovator, tech partner, or investor—if you're passionate about transforming how the world hires, we'd love to connect.
+        - img "Future of Work" [ref=e107]
+    - generic [ref=e110]:
+      - generic [ref=e111]:
+        - generic [ref=e112]:
+          - link "App Logo" [ref=e113] [cursor=pointer]:
+            - /url: /
+            - img "App Logo" [ref=e114]
+          - generic [ref=e115]:
+            - paragraph [ref=e116]: "Follow Us :"
+            - generic [ref=e117]:
+              - link "Follow us on Facebook" [ref=e118] [cursor=pointer]:
+                - /url: https://www.facebook.com/nextjobz
+                - img [ref=e119]
+              - link "Follow us on Instagram" [ref=e121] [cursor=pointer]:
+                - /url: https://www.instagram.com/next.jobz
+                - img [ref=e122]
+              - link "Follow us on LinkedIn" [ref=e126] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/next-jobz
+                - img [ref=e127]
+        - generic [ref=e130]:
+          - generic [ref=e131]:
+            - paragraph [ref=e132]: Company
+            - link "About Us" [ref=e133] [cursor=pointer]:
+              - /url: /about-us
+            - link "Our Team" [ref=e134] [cursor=pointer]:
+              - /url: /our-team
+            - link "Contact" [ref=e135] [cursor=pointer]:
+              - /url: /contact-us
+            - link "Terms of Service" [ref=e136] [cursor=pointer]:
+              - /url: /terms-of-use
+            - link "Privacy Policy" [ref=e137] [cursor=pointer]:
+              - /url: /privacyPolicy
+          - generic [ref=e138]:
+            - paragraph [ref=e139]: Employers
+            - link "Services" [ref=e140] [cursor=pointer]:
+              - /url: /employer#key-services
+            - link "Head Hunting" [ref=e141] [cursor=pointer]:
+              - /url: /employer#key-services
+            - link "Learning Lab" [ref=e142] [cursor=pointer]:
+              - /url: /learning-lab
+            - link "Hiring Advice" [ref=e143] [cursor=pointer]:
+              - /url: /hiring-advice
+            - link "FAQ" [ref=e144] [cursor=pointer]:
+              - /url: /faq
+          - generic [ref=e145]:
+            - paragraph [ref=e146]: Job Seekers
+            - link "Jobz" [ref=e147] [cursor=pointer]:
+              - /url: /job-search?pageNo=1&pageSize=10&activeTab=0
+            - link "Mid Career" [ref=e148] [cursor=pointer]:
+              - /url: /mid-career?pageNo=1&pageSize=10&activeTab=0
+            - link "Career Abroad" [ref=e149] [cursor=pointer]:
+              - /url: /career-abound
+            - link "Learning Lab" [ref=e150] [cursor=pointer]:
+              - /url: /learning-lab
+            - link "Career Guidance" [ref=e151] [cursor=pointer]:
+              - /url: /career-guidance
+          - generic [ref=e152]:
+            - paragraph [ref=e153]: Need any support?
+            - generic [ref=e154]:
+              - img [ref=e156]
+              - generic "198 Bir Uttam, Mir Shawkat Sarak, Gulshan Link Road, Tejgaon, Dhaka-1208." [ref=e159]
+            - generic [ref=e160]:
+              - img [ref=e162]
+              - link "+88 01335172200" [ref=e165] [cursor=pointer]:
+                - /url: https://wa.me/8801335172200
+            - generic [ref=e166]:
+              - img [ref=e168]
+              - link "support@nextjobz.work" [ref=e171] [cursor=pointer]:
+                - /url: mailto:support@nextjobz.work?subject=Need%20Help&body=
+      - separator [ref=e172]
+      - generic [ref=e173]:
+        - paragraph [ref=e174]: Copyright © 2025, All Rights Reserved by nextjobz Ltd.
+        - generic [ref=e175]:
+          - paragraph [ref=e176]: "Powered by:"
+          - img "Logo" [ref=e177]
+  - button [ref=e178] [cursor=pointer]:
+    - img [ref=e179]
+```

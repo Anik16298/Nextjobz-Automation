@@ -17,7 +17,7 @@ test.describe('Nextjobz Authenticated User Actions', () => {
     test('should view user profile/dashboard', async ({ page }) => {
         // Look for profile-related indicators
         const profileIcon = page.locator('div[class*="MuiAvatar-root"]').first();
-        const userName = page.getByText(/Nusrat/i).first();
+        const userName = page.getByText(new RegExp(config.credentials.displayName, 'i')).first();
 
         // Ensure we are in a logged-in state and elements are visible
         await expect(profileIcon).toBeVisible({ timeout: 15000 });

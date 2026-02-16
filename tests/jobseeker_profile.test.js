@@ -70,10 +70,10 @@ test.describe('Jobseeker Profile - Deep Test (CV Builder)', () => {
 
     test('should verify profile data integrity', async ({ page }) => {
         const dataPoints = [
-            { text: /Akij iBOS Limited/i, desc: 'Experience' },
-            { text: /Junior SQA Engineer/i, desc: 'Designation' },
-            { text: /arunabhoanik@gmail.com/i, desc: 'Contact' },
-            { text: /Manual Testing/i, desc: 'Skill' }
+            { text: new RegExp(config.credentials.profileData.company, 'i'), desc: 'Experience' },
+            { text: new RegExp(config.credentials.profileData.designation, 'i'), desc: 'Designation' },
+            { text: new RegExp(config.credentials.email, 'i'), desc: 'Contact' },
+            { text: new RegExp(config.credentials.profileData.skill, 'i'), desc: 'Skill' }
         ];
 
         for (const dp of dataPoints) {
