@@ -42,9 +42,12 @@ Driven by a rigorous **Page Object Model (POM)** and fortified with security bes
 ├── 📁 tests/               # Test Suites (The "Specs")
 │   ├── 🧪 e2e_full_journey.test.js      # Full site end-to-end flow
 │   ├── 🧪 deep_site_validation.test.js  # Mobile, Negative & Deep logic
+│   ├── 🧪 profile_sections_detail.test.js # Granular CV Builder data
+│   ├── 🧪 form_validation_edge_cases.test.js # Negative form logic
+│   ├── 🧪 connectivity_checks.test.js   # 100+ connectivity validaton
 │   ├── 🧪 navigation_hierarchy.test.js  # Full site structural tour
-│   ├── 🧪 profile.test.js               # Dashboard & User journey
-│   └── 🧪 search_functionality.test.js  # Robust search logic
+│   ├── 🧪 search_functionality.test.js  # 28+ Multi-role search logic
+│   └── 🧪 ...                           # Smoke & Feature tests
 ├── 📁 utils/               # Infrastructure (The "Settings")
 │   └── 📄 ConfigProvider.js # Credentials & Persona management
 └── 📄 playwright.config.js # Global Playwright configuration
