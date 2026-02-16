@@ -43,7 +43,14 @@
 - ✅ Job listing container verification
 - ✅ Filter visibility checks
 
-### 5. **Site Sections (Smoke Tests)**
+### 5. **Deep Site Validation (Power User)** (New!)
+#### Deep Regression Suite (`tests/deep_site_validation.test.js`)
+- ✅ **Negative Scenarios**: Invalid login attempts and registration form validation.
+- ✅ **Responsive Design**: Automated UI verification across Mobile (iPhone) viewports.
+- ✅ **Footer Depth**: Comprehensive check for broken links and dynamic footer availability.
+- ✅ **Interaction Quality**: Detailed form interaction validation (Contact Us, CV Builder).
+
+### 6. **Site Sections (Smoke Tests)**
 #### All Site Sections (`tests/section_smoke_tests.test.js`)
 - ✅ Career Guidance / Learning Lab
 - ✅ Career Abroad & Campus Connect
@@ -121,6 +128,6 @@ npx allure open allure-report
 
 ---
 
-**Last Updated**: February 8, 2026  
+**Last Updated**: February 16, 2026  
 **Framework**: Playwright with JavaScript  
-**Architecture**: Strict POM  
+**Architecture**: Strict POM (Data-Driven)

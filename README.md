@@ -40,11 +40,13 @@ Driven by a rigorous **Page Object Model (POM)** and fortified with security bes
 │   ├── 📄 BasePage.js      # Global utilities (Loaders, Nav, Helpers)
 │   └── 📄 ...              # Feature-specific page classes
 ├── 📁 tests/               # Test Suites (The "Specs")
+│   ├── 🧪 e2e_full_journey.test.js      # Full site end-to-end flow
+│   ├── 🧪 deep_site_validation.test.js  # Mobile, Negative & Deep logic
 │   ├── 🧪 navigation_hierarchy.test.js  # Full site structural tour
 │   ├── 🧪 profile.test.js               # Dashboard & User journey
 │   └── 🧪 search_functionality.test.js  # Robust search logic
 ├── 📁 utils/               # Infrastructure (The "Settings")
-│   └── 📄 ConfigProvider.js # Credentials & Env management
+│   └── 📄 ConfigProvider.js # Credentials & Persona management
 └── 📄 playwright.config.js # Global Playwright configuration
 ```
 
