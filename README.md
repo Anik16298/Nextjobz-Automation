@@ -111,5 +111,5 @@ We currently maintain **100% test pass rate** across all critical paths:
   <br>
   <sub><i>"Empowering Digital Excellence through Strategic Quality Innovation"</i></sub>
   <br>
-  <sub>Architected by <a href="https://github.com/Anik16298">Anik</a></sub>
+  <sub>Architected by <a href="https://github.com/Anik16298">Anik Chakraborty</a></sub>
 </div>
