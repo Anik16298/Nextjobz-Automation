@@ -47,7 +47,7 @@
 **Broken**: 30
 **Skipped**: 13
 **Pass Rate**: 69.2%  
-**Status**: ⚠️ **Needs Attention**  
+**Status**: 🔴 **Critical**  
 **Execution Time**: ~52 minutes
 **Environment**: Production (https://nextjobz.com.bd/)
 
