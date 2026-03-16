@@ -8,7 +8,6 @@
   [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
   [![Allure](https://img.shields.io/badge/Allure-Report-ff69b4?style=for-the-badge&logo=allure)](https://docs.qameta.io/allure/)
   [![Playwright Report](https://img.shields.io/badge/Playwright-HTML%20Report-blue?style=for-the-badge&logo=playwright)](https://github.com/Anik16298/Nextjobz-Automation/tree/main/playwright-report)
-  [![Status](https://img.shields.io/badge/Status-Critical-ff4444?style=for-the-badge)](./TEST_COVERAGE_REPORT.md)
 </div>
 
 ---
@@ -55,16 +54,6 @@ Allure Report is a flexible, lightweight multi-language test reporting tool that
 - 🎬 **Trace Files**: Playwright trace viewer for detailed debugging.
 - 🔍 **Network Monitoring**: Capture and analyze network traffic.
 - 📱 **Cross-Device Testing**: Mobile viewport emulation and responsive design validation.
-
----
-
-## Current Coverage Snapshot
-
-- Total tests: 169
-- Passed: 117 | Failed: 9 | Broken: 30 | Skipped: 13
-- Pass rate: 69.2% (Status: Critical)
-- Last run: ~52 minutes against https://nextjobz.com.bd/
-- Full details: see [TEST_COVERAGE_REPORT.md](./TEST_COVERAGE_REPORT.md)
 
 ---
 
