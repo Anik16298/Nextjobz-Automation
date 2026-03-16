@@ -91,7 +91,7 @@ Ensure you have [Node.js](https://nodejs.org/) installed (v16+ recommended).
 ### 2. Installation
 ```bash
 # Clone the repository
-git clone [your-repo-url]
+git clone [proper-repo-url]
 
 # Install dependencies
 npm install
