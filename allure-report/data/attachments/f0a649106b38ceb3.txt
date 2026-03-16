@@ -1,0 +1,2 @@
+Case: Authenticated Profile Deep Dive
+Verified 13 sections

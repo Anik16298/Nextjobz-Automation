@@ -1,0 +1,10 @@
+Checking footer link: About Us
+Verified About Us is visible with href: /about-us
+Checking footer link: Our Team
+Verified Our Team is visible with href: /our-team
+Checking footer link: Contact
+Verified Contact is visible with href: /contact-us
+Checking footer link: Terms of Service
+Verified Terms of Service is visible with href: /terms-of-use
+Checking footer link: Privacy Policy
+Verified Privacy Policy is visible with href: /privacyPolicy

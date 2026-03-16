@@ -1,0 +1,907 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e4]:
+  - generic [ref=e7]:
+    - link "App Logo" [ref=e9] [cursor=pointer]:
+      - /url: /
+      - img "App Logo" [ref=e10]
+    - generic [ref=e11]:
+      - link "Jobz" [ref=e13] [cursor=pointer]:
+        - /url: /jobs
+      - link "Career Development" [ref=e15] [cursor=pointer]:
+        - /url: /career-guidance
+      - link "Career Abroad" [ref=e17] [cursor=pointer]:
+        - /url: /career-abroad
+      - link "Campus Connect" [ref=e19] [cursor=pointer]:
+        - /url: /campus-connect
+    - generic [ref=e20]:
+      - button "Sign In" [ref=e21] [cursor=pointer]: Sign In
+      - button "Create Account" [ref=e22] [cursor=pointer]: Create Account
+      - separator [ref=e24]
+      - link "For Employers" [ref=e26] [cursor=pointer]:
+        - /url: /
+  - generic [ref=e27]:
+    - generic [ref=e29]:
+      - heading "Latest Private Jobs in Bangladesh" [level=1] [ref=e30]
+      - generic [ref=e32]:
+        - generic [ref=e35]:
+          - img [ref=e36]
+          - textbox "Job Title or keyword" [ref=e40]
+          - group
+        - button "Search" [ref=e41] [cursor=pointer]: Search
+    - generic [ref=e43]:
+      - generic [ref=e44]:
+        - generic [ref=e45]:
+          - tablist [ref=e49]:
+            - tab "Private 366" [selected] [ref=e50] [cursor=pointer]:
+              - generic [ref=e51]:
+                - generic [ref=e52]: Private
+                - img [ref=e53]
+                - generic [ref=e57]: "366"
+            - tab "Govt. 32" [ref=e58] [cursor=pointer]:
+              - generic [ref=e59]:
+                - generic [ref=e60]: Govt.
+                - img [ref=e61]
+                - generic [ref=e65]: "32"
+          - generic [ref=e67]:
+            - generic [ref=e68]:
+              - img [ref=e69]
+              - heading "Filter" [level=6] [ref=e71]
+            - generic [ref=e72]:
+              - paragraph [ref=e73]: Location
+              - generic [ref=e75]:
+                - textbox "Enter desired location" [ref=e76]
+                - group
+            - generic [ref=e77]:
+              - paragraph [ref=e78]: Company Name
+              - generic [ref=e80]:
+                - textbox "Enter company name" [ref=e81]
+                - group
+            - generic [ref=e82]:
+              - generic [ref=e83] [cursor=pointer]:
+                - heading "Job Posted" [level=6] [ref=e84]
+                - img [ref=e86]
+              - radiogroup [ref=e92]:
+                - generic [ref=e93] [cursor=pointer]:
+                  - generic [ref=e94]:
+                    - radio "All" [ref=e95]
+                    - img [ref=e97]
+                  - generic [ref=e99]: All
+                - generic [ref=e100] [cursor=pointer]:
+                  - generic [ref=e101]:
+                    - radio "Last Week" [ref=e102]
+                    - img [ref=e104]
+                  - generic [ref=e106]: Last Week
+                - generic [ref=e107] [cursor=pointer]:
+                  - generic [ref=e108]:
+                    - radio "Last 3 Month" [ref=e109]
+                    - img [ref=e111]
+                  - generic [ref=e113]: Last 3 Month
+                - generic [ref=e114] [cursor=pointer]:
+                  - generic [ref=e115]:
+                    - radio "This Year" [ref=e116]
+                    - img [ref=e118]
+                  - generic [ref=e120]: This Year
+            - generic [ref=e121]:
+              - generic [ref=e122] [cursor=pointer]:
+                - heading "Job Deadline" [level=6] [ref=e123]
+                - img [ref=e125]
+              - radiogroup [ref=e131]:
+                - generic [ref=e132] [cursor=pointer]:
+                  - generic [ref=e133]:
+                    - radio "Today" [ref=e134]
+                    - img [ref=e136]
+                  - generic [ref=e138]: Today
+                - generic [ref=e139] [cursor=pointer]:
+                  - generic [ref=e140]:
+                    - radio "Next Week" [ref=e141]
+                    - img [ref=e143]
+                  - generic [ref=e145]: Next Week
+                - generic [ref=e146] [cursor=pointer]:
+                  - generic [ref=e147]:
+                    - radio "Next 2 Week" [ref=e148]
+                    - img [ref=e150]
+                  - generic [ref=e152]: Next 2 Week
+                - generic [ref=e153] [cursor=pointer]:
+                  - generic [ref=e154]:
+                    - radio "Next Month" [ref=e155]
+                    - img [ref=e157]
+                  - generic [ref=e159]: Next Month
+                - generic [ref=e160] [cursor=pointer]:
+                  - generic [ref=e161]:
+                    - radio "Next 2 Month" [ref=e162]
+                    - img [ref=e164]
+                  - generic [ref=e166]: Next 2 Month
+            - generic [ref=e167]:
+              - generic [ref=e168] [cursor=pointer]:
+                - heading "Workplace Type" [level=6] [ref=e169]
+                - img [ref=e171]
+              - generic [ref=e176]:
+                - generic [ref=e178]:
+                  - generic [ref=e179] [cursor=pointer]:
+                    - checkbox "Onsite" [ref=e181]
+                    - generic [ref=e183]: Onsite
+                  - paragraph
+                - generic [ref=e185]:
+                  - generic [ref=e186] [cursor=pointer]:
+                    - checkbox "Remote" [ref=e188]
+                    - generic [ref=e190]: Remote
+                  - paragraph
+                - generic [ref=e192]:
+                  - generic [ref=e193] [cursor=pointer]:
+                    - checkbox "Hybrid" [ref=e195]
+                    - generic [ref=e197]: Hybrid
+                  - paragraph
+            - generic [ref=e198]:
+              - generic [ref=e199] [cursor=pointer]:
+                - heading "Job Type" [level=6] [ref=e200]
+                - img [ref=e202]
+              - generic [ref=e207]:
+                - generic [ref=e209]:
+                  - generic [ref=e210] [cursor=pointer]:
+                    - checkbox "Part-Time" [ref=e212]
+                    - generic [ref=e214]: Part-Time
+                  - paragraph
+                - generic [ref=e216]:
+                  - generic [ref=e217] [cursor=pointer]:
+                    - checkbox "Full-time" [ref=e219]
+                    - generic [ref=e221]: Full-time
+                  - paragraph
+                - generic [ref=e223]:
+                  - generic [ref=e224] [cursor=pointer]:
+                    - checkbox "Contractual" [ref=e226]
+                    - generic [ref=e228]: Contractual
+                  - paragraph
+                - generic [ref=e230]:
+                  - generic [ref=e231] [cursor=pointer]:
+                    - checkbox "Internship" [ref=e233]
+                    - generic [ref=e235]: Internship
+                  - paragraph
+            - generic [ref=e236]:
+              - paragraph [ref=e237]: Experience Level (Year)
+              - generic [ref=e238]:
+                - generic [ref=e240] [cursor=pointer]:
+                  - slider [ref=e244]: "0"
+                  - slider [ref=e246]: "60"
+                - generic [ref=e247]:
+                  - generic [ref=e248]:
+                    - paragraph [ref=e249]: "Min : (0)"
+                    - textbox [ref=e252]: "0"
+                  - generic [ref=e253]:
+                    - paragraph [ref=e254]: "Max : (60)"
+                    - textbox [ref=e257]: "60"
+            - generic [ref=e258]:
+              - generic [ref=e259] [cursor=pointer]:
+                - heading "Industry" [level=6] [ref=e260]
+                - img [ref=e262]
+              - generic [ref=e267]:
+                - generic [ref=e269]:
+                  - generic [ref=e270] [cursor=pointer]:
+                    - checkbox "Accounting / Finance" [ref=e272]
+                    - generic [ref=e274]: Accounting / Finance
+                  - paragraph
+                - generic [ref=e276]:
+                  - generic [ref=e277] [cursor=pointer]:
+                    - checkbox "Agriculture / Environment / Forestry" [ref=e279]
+                    - generic [ref=e281]: Agriculture / Environment / Forestry
+                  - paragraph
+                - generic [ref=e283]:
+                  - generic [ref=e284] [cursor=pointer]:
+                    - checkbox "Agro (Plant / Animal / Fisheries)" [ref=e286]
+                    - generic [ref=e288]: Agro (Plant / Animal / Fisheries)
+                  - paragraph
+                - generic [ref=e290]:
+                  - generic [ref=e291] [cursor=pointer]:
+                    - checkbox "Architecture / Interior Design" [ref=e293]
+                    - generic [ref=e295]: Architecture / Interior Design
+                  - paragraph
+                - generic [ref=e297]:
+                  - generic [ref=e298] [cursor=pointer]:
+                    - checkbox "Banking / Non-Banking Financial Institution" [ref=e300]
+                    - generic [ref=e302]: Banking / Non-Banking Financial Institution
+                  - paragraph
+                - generic [ref=e304]:
+                  - generic [ref=e305] [cursor=pointer]:
+                    - checkbox "Beauty / Salon / Lifestyle" [ref=e307]
+                    - generic [ref=e309]: Beauty / Salon / Lifestyle
+                  - paragraph
+                - generic [ref=e311]:
+                  - generic [ref=e312] [cursor=pointer]:
+                    - checkbox "BPO / Data Entry / Call Center" [ref=e314]
+                    - generic [ref=e316]: BPO / Data Entry / Call Center
+                  - paragraph
+                - generic [ref=e318]:
+                  - generic [ref=e319] [cursor=pointer]:
+                    - checkbox "Commercial / Supply Chain / Procurement" [ref=e321]
+                    - generic [ref=e323]: Commercial / Supply Chain / Procurement
+                  - paragraph
+                - generic [ref=e325]:
+                  - generic [ref=e326] [cursor=pointer]:
+                    - checkbox "Company Secretary / Regulatory Affairs" [ref=e328]
+                    - generic [ref=e330]: Company Secretary / Regulatory Affairs
+                  - paragraph
+                - generic [ref=e332]:
+                  - generic [ref=e333] [cursor=pointer]:
+                    - checkbox "Creative / Design / Multimedia" [ref=e335]
+                    - generic [ref=e337]: Creative / Design / Multimedia
+                  - paragraph
+                - generic [ref=e339]:
+                  - generic [ref=e340] [cursor=pointer]:
+                    - checkbox "Customer Service / Support" [ref=e342]
+                    - generic [ref=e344]: Customer Service / Support
+                  - paragraph
+                - generic [ref=e346]:
+                  - generic [ref=e347] [cursor=pointer]:
+                    - checkbox "Education / Teaching" [ref=e349]
+                    - generic [ref=e351]: Education / Teaching
+                  - paragraph
+                - generic [ref=e353]:
+                  - generic [ref=e354] [cursor=pointer]:
+                    - checkbox "Engineering (Civil / Mechanical / Electrical / Other)" [ref=e356]
+                    - generic [ref=e358]: Engineering (Civil / Mechanical / Electrical / Other)
+                  - paragraph
+                - generic [ref=e360]:
+                  - generic [ref=e361] [cursor=pointer]:
+                    - checkbox "Garments / Textile / RMG" [ref=e363]
+                    - generic [ref=e365]: Garments / Textile / RMG
+                  - paragraph
+                - generic [ref=e367]:
+                  - generic [ref=e368] [cursor=pointer]:
+                    - checkbox "General Management / Administration" [ref=e370]
+                    - generic [ref=e372]: General Management / Administration
+                  - paragraph
+                - generic [ref=e374]:
+                  - generic [ref=e375] [cursor=pointer]:
+                    - checkbox "Graphic Design / Animation" [ref=e377]
+                    - generic [ref=e379]: Graphic Design / Animation
+                  - paragraph
+                - generic [ref=e381]:
+                  - generic [ref=e382] [cursor=pointer]:
+                    - checkbox "Health / Fitness / Sports" [ref=e384]
+                    - generic [ref=e386]: Health / Fitness / Sports
+                  - paragraph
+                - generic [ref=e388]:
+                  - generic [ref=e389] [cursor=pointer]:
+                    - checkbox "Healthcare / Medical / Hospital" [ref=e391]
+                    - generic [ref=e393]: Healthcare / Medical / Hospital
+                  - paragraph
+                - generic [ref=e395]:
+                  - generic [ref=e396] [cursor=pointer]:
+                    - checkbox "Hospitality / Hotel / Travel / Tourism" [ref=e398]
+                    - generic [ref=e400]: Hospitality / Hotel / Travel / Tourism
+                  - paragraph
+                - generic [ref=e402]:
+                  - generic [ref=e403] [cursor=pointer]:
+                    - checkbox "Human Resource / Organization Development" [ref=e405]
+                    - generic [ref=e407]: Human Resource / Organization Development
+                  - paragraph
+                - generic [ref=e409]:
+                  - generic [ref=e410] [cursor=pointer]:
+                    - checkbox "Information Technology (IT) / Software / Telecommunication" [ref=e412]
+                    - generic [ref=e414]: Information Technology (IT) / Software / Telecommunication
+                  - paragraph
+                - generic [ref=e416]:
+                  - generic [ref=e417] [cursor=pointer]:
+                    - checkbox "Journalism / Content Writing / Editing" [ref=e419]
+                    - generic [ref=e421]: Journalism / Content Writing / Editing
+                  - paragraph
+                - generic [ref=e423]:
+                  - generic [ref=e424] [cursor=pointer]:
+                    - checkbox "Leather / Jute / Footwear" [ref=e426]
+                    - generic [ref=e428]: Leather / Jute / Footwear
+                  - paragraph
+                - generic [ref=e430]:
+                  - generic [ref=e431] [cursor=pointer]:
+                    - checkbox "Legal / Law" [ref=e433]
+                    - generic [ref=e435]: Legal / Law
+                  - paragraph
+                - generic [ref=e437]:
+                  - generic [ref=e438] [cursor=pointer]:
+                    - checkbox "Marketing / Sales" [ref=e440]
+                    - generic [ref=e442]: Marketing / Sales
+                  - paragraph
+                - generic [ref=e444]:
+                  - generic [ref=e445] [cursor=pointer]:
+                    - checkbox "Media / Advertising / Event Management / Public Relations" [ref=e447]
+                    - generic [ref=e449]: Media / Advertising / Event Management / Public Relations
+                  - paragraph
+                - generic [ref=e451]:
+                  - generic [ref=e452] [cursor=pointer]:
+                    - checkbox "NGO / Development / Social Work" [ref=e454]
+                    - generic [ref=e456]: NGO / Development / Social Work
+                  - paragraph
+                - generic [ref=e458]:
+                  - generic [ref=e459] [cursor=pointer]:
+                    - checkbox "Pharmaceutical / Biotech / Lab" [ref=e461]
+                    - generic [ref=e463]: Pharmaceutical / Biotech / Lab
+                  - paragraph
+                - generic [ref=e465]:
+                  - generic [ref=e466] [cursor=pointer]:
+                    - checkbox "Production / Operation / Quality Control" [ref=e468]
+                    - generic [ref=e470]: Production / Operation / Quality Control
+                  - paragraph
+                - generic [ref=e472]:
+                  - generic [ref=e473] [cursor=pointer]:
+                    - checkbox "Project / Research / Consultancy" [ref=e475]
+                    - generic [ref=e477]: Project / Research / Consultancy
+                  - paragraph
+                - generic [ref=e479]:
+                  - generic [ref=e480] [cursor=pointer]:
+                    - checkbox "Public Sector / Government" [ref=e482]
+                    - generic [ref=e484]: Public Sector / Government
+                  - paragraph
+                - generic [ref=e486]:
+                  - generic [ref=e487] [cursor=pointer]:
+                    - checkbox "Real Estate / Property Development" [ref=e489]
+                    - generic [ref=e491]: Real Estate / Property Development
+                  - paragraph
+                - generic [ref=e493]:
+                  - generic [ref=e494] [cursor=pointer]:
+                    - checkbox "Retail / Super Shop / E-commerce" [ref=e496]
+                    - generic [ref=e498]: Retail / Super Shop / E-commerce
+                  - paragraph
+                - generic [ref=e500]:
+                  - generic [ref=e501] [cursor=pointer]:
+                    - checkbox "Supply Chain / Logistics / Procurement" [ref=e503]
+                    - generic [ref=e505]: Supply Chain / Logistics / Procurement
+                  - paragraph
+                - generic [ref=e507]:
+                  - generic [ref=e508] [cursor=pointer]:
+                    - checkbox "Training / Coaching / Career Development" [ref=e510]
+                    - generic [ref=e512]: Training / Coaching / Career Development
+                  - paragraph
+                - generic [ref=e514]:
+                  - generic [ref=e515] [cursor=pointer]:
+                    - checkbox "Caregiver/Nanny" [ref=e517]
+                    - generic [ref=e519]: Caregiver/Nanny
+                  - paragraph
+                - generic [ref=e521]:
+                  - generic [ref=e522] [cursor=pointer]:
+                    - checkbox "Carpenter" [ref=e524]
+                    - generic [ref=e526]: Carpenter
+                  - paragraph
+                - generic [ref=e528]:
+                  - generic [ref=e529] [cursor=pointer]:
+                    - checkbox "Chef/ Cook" [ref=e531]
+                    - generic [ref=e533]: Chef/ Cook
+                  - paragraph
+                - generic [ref=e535]:
+                  - generic [ref=e536] [cursor=pointer]:
+                    - checkbox "Cleaner / Housekeeper" [ref=e538]
+                    - generic [ref=e540]: Cleaner / Housekeeper
+                  - paragraph
+                - generic [ref=e542]:
+                  - generic [ref=e543] [cursor=pointer]:
+                    - checkbox "Deliveryman/Rider/Picker/Load-Unloader" [ref=e545]
+                    - generic [ref=e547]: Deliveryman/Rider/Picker/Load-Unloader
+                  - paragraph
+                - generic [ref=e549]:
+                  - generic [ref=e550] [cursor=pointer]:
+                    - checkbox "Driver" [ref=e552]
+                    - generic [ref=e554]: Driver
+                  - paragraph
+                - generic [ref=e556]:
+                  - generic [ref=e557] [cursor=pointer]:
+                    - checkbox "Fire Safety/ Firefighter" [ref=e559]
+                    - generic [ref=e561]: Fire Safety/ Firefighter
+                  - paragraph
+                - generic [ref=e563]:
+                  - generic [ref=e564] [cursor=pointer]:
+                    - checkbox "Nurse" [ref=e566]
+                    - generic [ref=e568]: Nurse
+                  - paragraph
+                - generic [ref=e570]:
+                  - generic [ref=e571] [cursor=pointer]:
+                    - checkbox "Office Support / Front Desk / Reception" [ref=e573]
+                    - generic [ref=e575]: Office Support / Front Desk / Reception
+                  - paragraph
+                - generic [ref=e577]:
+                  - generic [ref=e578] [cursor=pointer]:
+                    - checkbox "Pathologist/ Lab Assistant" [ref=e580]
+                    - generic [ref=e582]: Pathologist/ Lab Assistant
+                  - paragraph
+                - generic [ref=e584]:
+                  - generic [ref=e585] [cursor=pointer]:
+                    - checkbox "Peon / Office Assistant" [ref=e587]
+                    - generic [ref=e589]: Peon / Office Assistant
+                  - paragraph
+                - generic [ref=e591]:
+                  - generic [ref=e592] [cursor=pointer]:
+                    - checkbox "Security / Safety / Support Service" [ref=e594]
+                    - generic [ref=e596]: Security / Safety / Support Service
+                  - paragraph
+                - generic [ref=e598]:
+                  - generic [ref=e599] [cursor=pointer]:
+                    - checkbox "Showroom Assistant/Salesman" [ref=e601]
+                    - generic [ref=e603]: Showroom Assistant/Salesman
+                  - paragraph
+                - generic [ref=e605]:
+                  - generic [ref=e606] [cursor=pointer]:
+                    - checkbox "Swing Machine Operator/Garments Tehnician" [ref=e608]
+                    - generic [ref=e610]: Swing Machine Operator/Garments Tehnician
+                  - paragraph
+                - generic [ref=e612]:
+                  - generic [ref=e613] [cursor=pointer]:
+                    - checkbox "Technical / Electrician / Mechanic / Driver" [ref=e615]
+                    - generic [ref=e617]: Technical / Electrician / Mechanic / Driver
+                  - paragraph
+                - generic [ref=e619]:
+                  - generic [ref=e620] [cursor=pointer]:
+                    - checkbox "Translator / Interpreter" [ref=e622]
+                    - generic [ref=e624]: Translator / Interpreter
+                  - paragraph
+                - generic [ref=e626]:
+                  - generic [ref=e627] [cursor=pointer]:
+                    - checkbox "Waiter/Waitress" [ref=e629]
+                    - generic [ref=e631]: Waiter/Waitress
+                  - paragraph
+                - generic [ref=e633]:
+                  - generic [ref=e634] [cursor=pointer]:
+                    - checkbox "Welder / plumber" [ref=e636]
+                    - generic [ref=e638]: Welder / plumber
+                  - paragraph
+                - generic [ref=e640]:
+                  - generic [ref=e641] [cursor=pointer]:
+                    - checkbox "Others" [ref=e643]
+                    - generic [ref=e645]: Others
+                  - paragraph
+                - generic [ref=e647]:
+                  - generic [ref=e648] [cursor=pointer]:
+                    - checkbox "Boiler Operator" [ref=e650]
+                    - generic [ref=e652]: Boiler Operator
+                  - paragraph
+                - generic [ref=e654]:
+                  - generic [ref=e655] [cursor=pointer]:
+                    - checkbox "CAD Operator" [ref=e657]
+                    - generic [ref=e659]: CAD Operator
+                  - paragraph
+                - generic [ref=e661]:
+                  - generic [ref=e662] [cursor=pointer]:
+                    - checkbox "Gardener" [ref=e664]
+                    - generic [ref=e666]: Gardener
+                  - paragraph
+                - generic [ref=e668]:
+                  - generic [ref=e669] [cursor=pointer]:
+                    - checkbox "Imam/ Khatib/ Muazzin" [ref=e671]
+                    - generic [ref=e673]: Imam/ Khatib/ Muazzin
+                  - paragraph
+                - generic [ref=e675]:
+                  - generic [ref=e676] [cursor=pointer]:
+                    - checkbox "Mason/ Construction worker" [ref=e678]
+                    - generic [ref=e680]: Mason/ Construction worker
+                  - paragraph
+            - generic [ref=e681]:
+              - paragraph [ref=e682]: Salary Range (Monthly)
+              - generic [ref=e683]:
+                - generic [ref=e685] [cursor=pointer]:
+                  - slider [ref=e689]: "1000"
+                  - slider [ref=e691]: "2000000"
+                - generic [ref=e692]:
+                  - generic [ref=e693]:
+                    - paragraph [ref=e694]: "Min : (1000)"
+                    - textbox [ref=e697]: "1000"
+                  - generic [ref=e698]:
+                    - paragraph [ref=e699]: "Max : (2000000)"
+                    - textbox [ref=e702]: "2000000"
+        - generic [ref=e706]:
+          - heading "366 Jobz Found" [level=4] [ref=e708]
+          - generic [ref=e709] [cursor=pointer]:
+            - generic [ref=e711]:
+              - generic [ref=e712]:
+                - img "Company Logo" [ref=e714]
+                - generic [ref=e715]:
+                  - paragraph [ref=e716]: Tele Marketing Executive
+                  - paragraph [ref=e717]: AL Ayesha Siam Overseas
+              - generic [ref=e718]:
+                - generic [ref=e719]:
+                  - img [ref=e720]
+                  - paragraph [ref=e723]: 1 to 2 years
+                - generic [ref=e724]:
+                  - img [ref=e725]
+                  - paragraph [ref=e729]: On-Site
+                - generic [ref=e730]:
+                  - img [ref=e731]
+                  - paragraph
+                - paragraph [ref=e736]: 20k-25k
+              - generic [ref=e738]:
+                - paragraph [ref=e739]: Telesales
+                - paragraph [ref=e740]: Customer Relationship Management (CRM)
+                - paragraph [ref=e741]: Marketing
+            - generic [ref=e742]:
+              - generic [ref=e743]:
+                - img [ref=e744]
+                - paragraph [ref=e751]: Deadline 28 Mar, 2026
+              - button [ref=e753]:
+                - img [ref=e754]
+          - generic [ref=e760] [cursor=pointer]:
+            - generic [ref=e762]:
+              - generic [ref=e763]:
+                - img "Company Logo" [ref=e765]
+                - generic [ref=e766]:
+                  - paragraph [ref=e767]: AI Engineer (LLMs)
+                  - paragraph [ref=e768]: RACO
+              - generic [ref=e769]:
+                - generic [ref=e770]:
+                  - img [ref=e771]
+                  - paragraph [ref=e774]: N/A
+                - generic [ref=e775]:
+                  - img [ref=e776]
+                  - paragraph [ref=e780]: On-Site
+                - generic [ref=e781]:
+                  - img [ref=e782]
+                  - paragraph [ref=e786]: Dhaka
+                - paragraph [ref=e788]: 20k-25k
+              - generic [ref=e790]:
+                - paragraph [ref=e791]: Object-Oriented Programming (OOP).
+                - paragraph [ref=e792]: Python Programming
+            - generic [ref=e793]:
+              - generic [ref=e794]:
+                - img [ref=e795]
+                - paragraph [ref=e802]: Deadline 17 Mar, 2026
+              - button [ref=e804]:
+                - img [ref=e805]
+          - generic [ref=e811] [cursor=pointer]:
+            - generic [ref=e813]:
+              - generic [ref=e814]:
+                - img "Company Logo" [ref=e816]
+                - generic [ref=e817]:
+                  - paragraph [ref=e818]: Imam
+                  - paragraph [ref=e819]: Baytun Noor Jame Mosque Foundation
+              - generic [ref=e820]:
+                - generic [ref=e821]:
+                  - img [ref=e822]
+                  - paragraph [ref=e825]: 3 years
+                - generic [ref=e826]:
+                  - img [ref=e827]
+                  - paragraph [ref=e831]: On-Site
+                - generic [ref=e832]:
+                  - img [ref=e833]
+                  - paragraph [ref=e837]: Dhaka
+                - paragraph [ref=e839]: 15k-20k
+              - generic [ref=e841]:
+                - paragraph [ref=e842]: Clear and confident recitation of the Qur’an.
+                - paragraph [ref=e843]: Public speaking and sermon delivery skills.
+            - generic [ref=e844]:
+              - generic [ref=e845]:
+                - img [ref=e846]
+                - paragraph [ref=e853]: Deadline 1 Sep, 2026
+              - button [ref=e855]:
+                - img [ref=e856]
+          - generic [ref=e862] [cursor=pointer]:
+            - generic [ref=e864]:
+              - generic [ref=e865]:
+                - img "Company Logo" [ref=e867]
+                - generic [ref=e868]:
+                  - paragraph [ref=e869]: Khadem (Mosque Caretaker)
+                  - paragraph [ref=e870]: Baytun Noor Jame Mosque Foundation
+              - generic [ref=e871]:
+                - generic [ref=e872]:
+                  - img [ref=e873]
+                  - paragraph [ref=e876]: 0 to 4 years
+                - generic [ref=e877]:
+                  - img [ref=e878]
+                  - paragraph [ref=e882]: On-Site
+                - generic [ref=e883]:
+                  - img [ref=e884]
+                  - paragraph [ref=e888]: Dhaka
+                - paragraph [ref=e890]: 8k-12k
+              - generic [ref=e892]:
+                - paragraph [ref=e893]: Physically fit and capable of cleaning and maintenance work
+                - paragraph [ref=e894]: Honest, disciplined, and responsible personality
+            - generic [ref=e895]:
+              - generic [ref=e896]:
+                - img [ref=e897]
+                - paragraph [ref=e904]: Deadline 31 Jul, 2026
+              - button [ref=e906]:
+                - img [ref=e907]
+          - generic [ref=e913] [cursor=pointer]:
+            - generic [ref=e915]:
+              - generic [ref=e916]:
+                - img "Company Logo" [ref=e918]
+                - generic [ref=e919]:
+                  - paragraph [ref=e920]: PTE Trainer
+                  - paragraph [ref=e921]: Banglay IELTS
+              - generic [ref=e922]:
+                - generic [ref=e923]:
+                  - img [ref=e924]
+                  - paragraph [ref=e927]: 1 to 2 years
+                - generic [ref=e928]:
+                  - img [ref=e929]
+                  - paragraph [ref=e933]: On-Site
+                - generic [ref=e934]:
+                  - img [ref=e935]
+                  - paragraph [ref=e939]: Dhaka
+                - paragraph [ref=e941]: Negotiable
+              - paragraph [ref=e944]: Teaching and Training
+            - generic [ref=e945]:
+              - generic [ref=e946]:
+                - img [ref=e947]
+                - paragraph [ref=e954]: Deadline 1 Aug, 2026
+              - button [ref=e956]:
+                - img [ref=e957]
+          - generic [ref=e963] [cursor=pointer]:
+            - generic [ref=e965]:
+              - generic [ref=e966]:
+                - img "Company Logo" [ref=e968]
+                - generic [ref=e969]:
+                  - paragraph [ref=e970]: SQA Lead (This job is for test in Live. Made by QA ANIK)
+                  - paragraph [ref=e971]: Sangwan Tech
+              - generic [ref=e972]:
+                - generic [ref=e973]:
+                  - img [ref=e974]
+                  - paragraph [ref=e977]: 0 to 5 years
+                - generic [ref=e978]:
+                  - img [ref=e979]
+                  - paragraph [ref=e983]: On-Site
+                - generic [ref=e984]:
+                  - img [ref=e985]
+                  - paragraph [ref=e989]: Dhaka
+                - paragraph [ref=e991]: Negotiable
+              - generic [ref=e993]:
+                - paragraph [ref=e994]: Cash Flow Statement
+                - paragraph [ref=e995]: Payroll management
+                - paragraph [ref=e996]: Tally ERP 9
+            - generic [ref=e997]:
+              - generic [ref=e998]:
+                - img [ref=e999]
+                - paragraph [ref=e1006]: Deadline 31 Mar, 2026
+              - button [ref=e1008]:
+                - img [ref=e1009]
+          - generic [ref=e1015] [cursor=pointer]:
+            - generic [ref=e1017]:
+              - generic [ref=e1018]:
+                - img "Company Logo" [ref=e1020]
+                - generic [ref=e1021]:
+                  - paragraph [ref=e1022]: Sales Executives
+                  - paragraph [ref=e1023]: Blue-Dream Tours & Travels Ltd
+              - generic [ref=e1024]:
+                - generic [ref=e1025]:
+                  - img [ref=e1026]
+                  - paragraph [ref=e1029]: 1 years
+                - generic [ref=e1030]:
+                  - img [ref=e1031]
+                  - paragraph [ref=e1035]: On-Site
+                - generic [ref=e1036]:
+                  - img [ref=e1037]
+                  - paragraph [ref=e1041]: Dhaka
+                - paragraph [ref=e1043]: Negotiable
+              - generic [ref=e1045]:
+                - paragraph [ref=e1046]: Sales Communication
+                - paragraph [ref=e1047]: Sales Processes
+            - generic [ref=e1048]:
+              - generic [ref=e1049]:
+                - img [ref=e1050]
+                - paragraph [ref=e1057]: Deadline 31 May, 2026
+              - button [ref=e1059]:
+                - img [ref=e1060]
+          - generic [ref=e1066] [cursor=pointer]:
+            - generic [ref=e1068]:
+              - generic [ref=e1069]:
+                - img "Company Logo" [ref=e1071]
+                - generic [ref=e1072]:
+                  - paragraph [ref=e1073]: "Fashion Designer (Women`s Category)"
+                  - paragraph [ref=e1074]: VITTORIO LUSSO LIMITED
+              - generic [ref=e1075]:
+                - generic [ref=e1076]:
+                  - img [ref=e1077]
+                  - paragraph [ref=e1080]: 1 to 5 years
+                - generic [ref=e1081]:
+                  - img [ref=e1082]
+                  - paragraph [ref=e1086]: On-Site
+                - generic [ref=e1087]:
+                  - img [ref=e1088]
+                  - paragraph [ref=e1092]: Dhaka
+                - paragraph [ref=e1094]: 25k-35k
+              - paragraph [ref=e1097]: Adobe Illustrator, Adobe Photoshop, CorelDRAW, Fashion Designing
+            - generic [ref=e1098]:
+              - generic [ref=e1099]:
+                - img [ref=e1100]
+                - paragraph [ref=e1107]: Deadline 27 Jun, 2026
+              - button [ref=e1109]:
+                - img [ref=e1110]
+          - generic [ref=e1116] [cursor=pointer]:
+            - generic [ref=e1118]:
+              - generic [ref=e1119]:
+                - img "Company Logo" [ref=e1121]
+                - generic [ref=e1122]:
+                  - paragraph [ref=e1123]: Sub Admin
+                  - paragraph [ref=e1124]: Booktionary Limited
+              - generic [ref=e1125]:
+                - generic [ref=e1126]:
+                  - img [ref=e1127]
+                  - paragraph [ref=e1130]: 1 to 2 years
+                - generic [ref=e1131]:
+                  - img [ref=e1132]
+                  - paragraph [ref=e1136]: On-Site
+                - generic [ref=e1137]:
+                  - img [ref=e1138]
+                  - paragraph [ref=e1142]: Dhaka
+                - paragraph [ref=e1144]: Negotiable
+              - paragraph [ref=e1147]: Microsoft Excel
+            - generic [ref=e1148]:
+              - generic [ref=e1149]:
+                - img [ref=e1150]
+                - paragraph [ref=e1157]: Deadline 31 Mar, 2026
+              - button [ref=e1159]:
+                - img [ref=e1160]
+          - generic [ref=e1166] [cursor=pointer]:
+            - generic [ref=e1168]:
+              - generic [ref=e1169]:
+                - img "Company Logo" [ref=e1171]
+                - generic [ref=e1172]:
+                  - paragraph [ref=e1173]: Admin Assistant
+                  - paragraph [ref=e1174]: Booktionary Limited
+              - generic [ref=e1175]:
+                - generic [ref=e1176]:
+                  - img [ref=e1177]
+                  - paragraph [ref=e1180]: N/A
+                - generic [ref=e1181]:
+                  - img [ref=e1182]
+                  - paragraph [ref=e1186]: On-Site
+                - generic [ref=e1187]:
+                  - img [ref=e1188]
+                  - paragraph [ref=e1192]: Dhaka
+                - paragraph [ref=e1194]: 9k-11k
+              - generic [ref=e1196]:
+                - paragraph [ref=e1197]: Book Collection & Management
+                - paragraph [ref=e1198]: Logistics & Courier Handling
+                - paragraph [ref=e1199]: Field Work
+                - paragraph [ref=e1200]: Print & General Office Support
+            - generic [ref=e1201]:
+              - generic [ref=e1202]:
+                - img [ref=e1203]
+                - paragraph [ref=e1210]: Deadline 31 Mar, 2026
+              - button [ref=e1212]:
+                - img [ref=e1213]
+          - generic [ref=e1219]:
+            - navigation "pagination navigation" [ref=e1220]:
+              - list [ref=e1221]:
+                - listitem [ref=e1222]:
+                  - button "Go to previous page" [disabled]:
+                    - img
+                - listitem [ref=e1223]:
+                  - button "page 1" [ref=e1224] [cursor=pointer]: "1"
+                - listitem [ref=e1225]:
+                  - button "Go to page 2" [ref=e1226] [cursor=pointer]: "2"
+                - listitem [ref=e1227]:
+                  - button "Go to page 3" [ref=e1228] [cursor=pointer]: "3"
+                - listitem [ref=e1229]:
+                  - button "Go to page 4" [ref=e1230] [cursor=pointer]: "4"
+                - listitem [ref=e1231]:
+                  - button "Go to page 5" [ref=e1232] [cursor=pointer]: "5"
+                - listitem [ref=e1233]:
+                  - generic [ref=e1234]: …
+                - listitem [ref=e1235]:
+                  - button "Go to page 37" [ref=e1236] [cursor=pointer]: "37"
+                - listitem [ref=e1237]:
+                  - button "Go to next page" [ref=e1238] [cursor=pointer]:
+                    - img [ref=e1239]
+            - generic [ref=e1241]:
+              - paragraph [ref=e1242]: Jobz per page
+              - generic [ref=e1243]:
+                - combobox [ref=e1244] [cursor=pointer]: "10"
+                - textbox: "10"
+                - img "dropdown icon"
+                - group
+      - generic [ref=e1246]:
+        - img [ref=e1248]:
+          - generic [ref=e1262]: Hired!
+        - paragraph [ref=e1268]:
+          - text: Explore thousands of
+          - strong [ref=e1269]: jobs in Bangladesh
+          - text: through one of the best career portals built for modern job seekers. Our platform connects you with the latest
+          - strong [ref=e1270]: jobs in Dhaka
+          - text: ", government jobs, corporate jobs, MNC jobs, and top"
+          - strong [ref=e1271]: BD vacancies
+          - text: across industries. Whether you are searching for entry-level opportunities or experienced roles, you can easily discover the right
+          - strong [ref=e1272]: jobs in BD
+          - text: in one place. As a trusted
+          - strong [ref=e1273]: BD career portal
+          - text: and
+          - strong [ref=e1274]: best job portal
+          - text: ", we regularly update verified BD jobs to help you build your career faster and smarter. Start exploring today and find the job that matches your ambition."
+  - contentinfo "Site footer" [ref=e1275]:
+    - generic [ref=e1277]:
+      - generic [ref=e1278]:
+        - generic [ref=e1279]:
+          - link "App Logo" [ref=e1280] [cursor=pointer]:
+            - /url: /
+            - img "App Logo" [ref=e1281]
+          - generic [ref=e1282]:
+            - paragraph [ref=e1283]: "Follow Us :"
+            - navigation "Social media links" [ref=e1284]:
+              - link "Follow nextjobz on Facebook" [ref=e1285] [cursor=pointer]:
+                - /url: https://www.facebook.com/nextjobz
+                - img [ref=e1286]
+              - link "Follow nextjobz on X" [ref=e1288] [cursor=pointer]:
+                - /url: https://www.x.com/@nextjobz
+                - img [ref=e1289]
+              - link "Follow nextjobz on Instagram" [ref=e1291] [cursor=pointer]:
+                - /url: https://www.instagram.com/next.jobz
+                - img [ref=e1292]
+              - link "Follow nextjobz on LinkedIn" [ref=e1296] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/next-jobz
+                - img [ref=e1297]
+              - link "Follow nextjobz on YouTube" [ref=e1300] [cursor=pointer]:
+                - /url: https://www.youtube.com/@nextjobz
+                - img [ref=e1301]
+        - navigation "Footer navigation" [ref=e1304]:
+          - generic [ref=e1305]:
+            - heading "Company" [level=3] [ref=e1306]
+            - list [ref=e1307]:
+              - listitem [ref=e1308]:
+                - link "About Us" [ref=e1309] [cursor=pointer]:
+                  - /url: /about-us
+              - listitem [ref=e1310]:
+                - link "Our Team" [ref=e1311] [cursor=pointer]:
+                  - /url: /our-team
+              - listitem [ref=e1312]:
+                - link "Contact" [ref=e1313] [cursor=pointer]:
+                  - /url: /contact-us
+              - listitem [ref=e1314]:
+                - link "Terms of Service" [ref=e1315] [cursor=pointer]:
+                  - /url: /terms-of-use
+              - listitem [ref=e1316]:
+                - link "Privacy Policy" [ref=e1317] [cursor=pointer]:
+                  - /url: /privacyPolicy
+              - listitem [ref=e1318]:
+                - link "Refund Policy" [ref=e1319] [cursor=pointer]:
+                  - /url: /refund-policy
+          - generic [ref=e1320]:
+            - heading "Employers" [level=3] [ref=e1321]
+            - list [ref=e1322]:
+              - listitem [ref=e1323]:
+                - link "Services" [ref=e1324] [cursor=pointer]:
+                  - /url: https://employers.nextjobz.com.bd/employer#key-services
+              - listitem [ref=e1325]:
+                - link "Head Hunting" [ref=e1326] [cursor=pointer]:
+                  - /url: /headhunting
+              - listitem [ref=e1327]:
+                - link "Learning Lab" [ref=e1328] [cursor=pointer]:
+                  - /url: /learning-lab
+              - listitem [ref=e1329]:
+                - link "Hiring Advice" [ref=e1330] [cursor=pointer]:
+                  - /url: /hiring-advice
+              - listitem [ref=e1331]:
+                - link "FAQ" [ref=e1332] [cursor=pointer]:
+                  - /url: /faq
+          - generic [ref=e1333]:
+            - heading "Job Seekers" [level=3] [ref=e1334]
+            - list [ref=e1335]:
+              - listitem [ref=e1336]:
+                - link "Jobz" [ref=e1337] [cursor=pointer]:
+                  - /url: /jobs
+              - listitem [ref=e1338]:
+                - link "Mid Career" [ref=e1339] [cursor=pointer]:
+                  - /url: /mid-career
+              - listitem [ref=e1340]:
+                - link "Career Abroad" [ref=e1341] [cursor=pointer]:
+                  - /url: /career-abound
+              - listitem [ref=e1342]:
+                - link "Learning Lab" [ref=e1343] [cursor=pointer]:
+                  - /url: /learning-lab
+              - listitem [ref=e1344]:
+                - link "Career Guidance" [ref=e1345] [cursor=pointer]:
+                  - /url: /career-guidance
+          - generic [ref=e1346]:
+            - heading "Need any support?" [level=3] [ref=e1347]
+            - generic [ref=e1348]:
+              - generic [ref=e1349]:
+                - img [ref=e1351]
+                - generic [ref=e1354]: 198 Bir Uttam, Mir Shawkat Sarak, Gulshan Link Road, Tejgaon, Dhaka-1208.
+              - generic [ref=e1355]:
+                - img [ref=e1357]
+                - link "+88 01335172200" [ref=e1360] [cursor=pointer]:
+                  - /url: https://wa.me/8801335172200
+              - generic [ref=e1361]:
+                - img [ref=e1363]
+                - link "support@nextjobz.work" [ref=e1366] [cursor=pointer]:
+                  - /url: mailto:support@nextjobz.work?subject=Need%20Help&body=
+      - separator [ref=e1367]
+      - generic [ref=e1368]:
+        - paragraph [ref=e1369]: Copyright © 2026, All Rights Reserved by nextjobz Ltd.
+        - generic [ref=e1370]:
+          - paragraph [ref=e1371]: "Powered by:"
+          - img "Akij Resource — parent company of nextjobz" [ref=e1372]
+```

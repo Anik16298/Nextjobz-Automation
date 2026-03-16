@@ -1,0 +1,441 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e4]:
+  - generic [ref=e6]:
+    - generic [ref=e7]:
+      - img [ref=e8]
+      - generic [ref=e12]:
+        - link "App Logo" [ref=e13] [cursor=pointer]:
+          - /url: /
+          - img "App Logo" [ref=e14]
+        - generic [ref=e15]:
+          - button "Sign In" [ref=e16] [cursor=pointer]: Sign In
+          - button "Sign Up" [ref=e17] [cursor=pointer]: Sign Up
+      - generic [ref=e19]:
+        - generic [ref=e21]:
+          - textbox "Job title or keyword" [ref=e22]
+          - group
+        - img [ref=e24] [cursor=pointer]
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - img [ref=e30]
+        - generic [ref=e32]:
+          - paragraph [ref=e33]: "398"
+          - paragraph [ref=e34]: Active Jobz
+      - generic [ref=e35]:
+        - img [ref=e36]
+        - generic [ref=e43]:
+          - paragraph [ref=e44]: "2261"
+          - paragraph [ref=e45]: Vacancies
+      - generic [ref=e46]:
+        - img [ref=e47]
+        - generic [ref=e49]:
+          - paragraph [ref=e50]: "151"
+          - paragraph [ref=e51]: Organizations
+    - generic [ref=e52]:
+      - generic [ref=e53]:
+        - heading "Jobs in Bangladesh by Category" [level=2] [ref=e54]
+        - paragraph [ref=e55] [cursor=pointer]: See All
+      - generic [ref=e58]:
+        - generic [ref=e60] [cursor=pointer]:
+          - img
+          - img [ref=e62]
+          - generic [ref=e64]:
+            - paragraph [ref=e65]: Accounting / Finance
+            - paragraph [ref=e66]: 19 Jobz
+        - generic [ref=e68] [cursor=pointer]:
+          - img
+          - img [ref=e70]
+          - generic [ref=e72]:
+            - paragraph [ref=e73]: Agriculture / Environment / Forestry
+            - paragraph [ref=e74]: 3 Jobz
+        - generic [ref=e76] [cursor=pointer]:
+          - img
+          - img [ref=e78]
+          - generic [ref=e80]:
+            - paragraph [ref=e81]: Architecture / Interior Design
+            - paragraph [ref=e82]: 5 Jobz
+        - generic [ref=e84] [cursor=pointer]:
+          - img
+          - img [ref=e86]
+          - generic [ref=e88]:
+            - paragraph [ref=e89]: Banking / Non-Banking Financial Institution
+            - paragraph [ref=e90]: 4 Jobz
+        - generic [ref=e92] [cursor=pointer]:
+          - img
+          - img [ref=e94]
+          - generic [ref=e96]:
+            - paragraph [ref=e97]: BPO / Data Entry / Call Center
+            - paragraph [ref=e98]: 5 Jobz
+        - generic [ref=e100] [cursor=pointer]:
+          - img
+          - img [ref=e102]
+          - generic [ref=e104]:
+            - paragraph [ref=e105]: Commercial / Supply Chain / Procurement
+            - paragraph [ref=e106]: 7 Jobz
+        - generic [ref=e108] [cursor=pointer]:
+          - img
+          - img [ref=e110]
+          - generic [ref=e112]:
+            - paragraph [ref=e113]: Company Secretary / Regulatory Affairs
+            - paragraph [ref=e114]: 2 Jobz
+        - generic [ref=e116] [cursor=pointer]:
+          - img
+          - img [ref=e118]
+          - generic [ref=e120]:
+            - paragraph [ref=e121]: Creative / Design / Multimedia
+            - paragraph [ref=e122]: 8 Jobz
+        - generic [ref=e124] [cursor=pointer]:
+          - img
+          - img [ref=e126]
+          - generic [ref=e128]:
+            - paragraph [ref=e129]: Customer Service / Support
+            - paragraph [ref=e130]: 13 Jobz
+        - generic [ref=e132] [cursor=pointer]:
+          - img
+          - img [ref=e134]
+          - generic [ref=e136]:
+            - paragraph [ref=e137]: Education / Teaching
+            - paragraph [ref=e138]: 13 Jobz
+        - generic [ref=e140] [cursor=pointer]:
+          - img
+          - img [ref=e142]
+          - generic [ref=e144]:
+            - paragraph [ref=e145]: Engineering (Civil / Mechanical / Electrical / Other)
+            - paragraph [ref=e146]: 21 Jobz
+        - generic [ref=e148] [cursor=pointer]:
+          - img
+          - img [ref=e150]
+          - generic [ref=e152]:
+            - paragraph [ref=e153]: Garments / Textile / RMG
+            - paragraph [ref=e154]: 26 Jobz
+        - generic [ref=e156] [cursor=pointer]:
+          - img
+          - img [ref=e158]
+          - generic [ref=e160]:
+            - paragraph [ref=e161]: General Management / Administration
+            - paragraph [ref=e162]: 18 Jobz
+        - generic [ref=e164] [cursor=pointer]:
+          - img
+          - img [ref=e166]
+          - generic [ref=e168]:
+            - paragraph [ref=e169]: Graphic Design / Animation
+            - paragraph [ref=e170]: 3 Jobz
+        - generic [ref=e172] [cursor=pointer]:
+          - img
+          - img [ref=e174]
+          - generic [ref=e176]:
+            - paragraph [ref=e177]: Healthcare / Medical / Hospital
+            - paragraph [ref=e178]: 10 Jobz
+        - generic [ref=e180] [cursor=pointer]:
+          - img
+          - img [ref=e182]
+          - generic [ref=e184]:
+            - paragraph [ref=e185]: Hospitality / Hotel / Travel / Tourism
+            - paragraph [ref=e186]: 4 Jobz
+        - generic [ref=e188] [cursor=pointer]:
+          - img
+          - img [ref=e190]
+          - generic [ref=e192]:
+            - paragraph [ref=e193]: Human Resource / Organization Development
+            - paragraph [ref=e194]: 17 Jobz
+        - generic [ref=e196] [cursor=pointer]:
+          - img
+          - img [ref=e198]
+          - generic [ref=e200]:
+            - paragraph [ref=e201]: Information Technology (IT) / Software / Telecommunication
+            - paragraph [ref=e202]: 20 Jobz
+        - generic [ref=e204] [cursor=pointer]:
+          - img
+          - img [ref=e206]
+          - generic [ref=e208]:
+            - paragraph [ref=e209]: Journalism / Content Writing / Editing
+            - paragraph [ref=e210]: 1 Jobz
+        - generic [ref=e212] [cursor=pointer]:
+          - img
+          - img [ref=e214]
+          - generic [ref=e216]:
+            - paragraph [ref=e217]: Marketing / Sales
+            - paragraph [ref=e218]: 69 Jobz
+        - generic [ref=e220] [cursor=pointer]:
+          - img
+          - img [ref=e222]
+          - generic [ref=e224]:
+            - paragraph [ref=e225]: Media / Advertising / Event Management / Public Relations
+            - paragraph [ref=e226]: 4 Jobz
+        - generic [ref=e228] [cursor=pointer]:
+          - img
+          - img [ref=e230]
+          - generic [ref=e232]:
+            - paragraph [ref=e233]: NGO / Development / Social Work
+            - paragraph [ref=e234]: 2 Jobz
+        - generic [ref=e236] [cursor=pointer]:
+          - img
+          - img [ref=e238]
+          - generic [ref=e240]:
+            - paragraph [ref=e241]: Pharmaceutical / Biotech / Lab
+            - paragraph [ref=e242]: 8 Jobz
+        - generic [ref=e244] [cursor=pointer]:
+          - img
+          - img [ref=e246]
+          - generic [ref=e248]:
+            - paragraph [ref=e249]: Production / Operation / Quality Control
+            - paragraph [ref=e250]: 28 Jobz
+        - generic [ref=e252] [cursor=pointer]:
+          - img
+          - img [ref=e254]
+          - generic [ref=e256]:
+            - paragraph [ref=e257]: Project / Research / Consultancy
+            - paragraph [ref=e258]: 6 Jobz
+        - generic [ref=e260] [cursor=pointer]:
+          - img
+          - img [ref=e262]
+          - generic [ref=e264]:
+            - paragraph [ref=e265]: Real Estate / Property Development
+            - paragraph [ref=e266]: 3 Jobz
+        - generic [ref=e268] [cursor=pointer]:
+          - img
+          - img [ref=e270]
+          - generic [ref=e272]:
+            - paragraph [ref=e273]: Retail / Super Shop / E-commerce
+            - paragraph [ref=e274]: 4 Jobz
+        - generic [ref=e276] [cursor=pointer]:
+          - img
+          - img [ref=e278]
+          - generic [ref=e280]:
+            - paragraph [ref=e281]: Supply Chain / Logistics / Procurement
+            - paragraph [ref=e282]: 1 Jobz
+        - generic [ref=e284] [cursor=pointer]:
+          - img
+          - img [ref=e286]
+          - generic [ref=e288]:
+            - paragraph [ref=e289]: Training / Coaching / Career Development
+            - paragraph [ref=e290]: 2 Jobz
+        - generic [ref=e292] [cursor=pointer]:
+          - img
+          - img [ref=e294]
+          - generic [ref=e296]:
+            - paragraph [ref=e297]: Caregiver/Nanny
+            - paragraph [ref=e298]: 1 Jobz
+        - generic [ref=e300] [cursor=pointer]:
+          - img
+          - img [ref=e302]
+          - generic [ref=e304]:
+            - paragraph [ref=e305]: Chef/ Cook
+            - paragraph [ref=e306]: 5 Jobz
+        - generic [ref=e308] [cursor=pointer]:
+          - img
+          - img [ref=e310]
+          - generic [ref=e312]:
+            - paragraph [ref=e313]: Deliveryman/Rider/Picker/Load-Unloader
+            - paragraph [ref=e314]: 1 Jobz
+        - generic [ref=e316] [cursor=pointer]:
+          - img
+          - img [ref=e318]
+          - generic [ref=e320]:
+            - paragraph [ref=e321]: Driver
+            - paragraph [ref=e322]: 1 Jobz
+        - generic [ref=e324] [cursor=pointer]:
+          - img
+          - img [ref=e326]
+          - generic [ref=e328]:
+            - paragraph [ref=e329]: Office Support / Front Desk / Reception
+            - paragraph [ref=e330]: 3 Jobz
+        - generic [ref=e332] [cursor=pointer]:
+          - img
+          - img [ref=e334]
+          - generic [ref=e336]:
+            - paragraph [ref=e337]: Pathologist/ Lab Assistant
+            - paragraph [ref=e338]: 1 Jobz
+        - generic [ref=e340] [cursor=pointer]:
+          - img
+          - img [ref=e342]
+          - generic [ref=e344]:
+            - paragraph [ref=e345]: Peon / Office Assistant
+            - paragraph [ref=e346]: 4 Jobz
+        - generic [ref=e348] [cursor=pointer]:
+          - img
+          - img [ref=e350]
+          - generic [ref=e352]:
+            - paragraph [ref=e353]: Security / Safety / Support Service
+            - paragraph [ref=e354]: 6 Jobz
+        - generic [ref=e356] [cursor=pointer]:
+          - img
+          - img [ref=e358]
+          - generic [ref=e360]:
+            - paragraph [ref=e361]: Showroom Assistant/Salesman
+            - paragraph [ref=e362]: 2 Jobz
+        - generic [ref=e364] [cursor=pointer]:
+          - img
+          - img [ref=e366]
+          - generic [ref=e368]:
+            - paragraph [ref=e369]: Swing Machine Operator/Garments Tehnician
+            - paragraph [ref=e370]: 3 Jobz
+        - generic [ref=e372] [cursor=pointer]:
+          - img
+          - img [ref=e374]
+          - generic [ref=e376]:
+            - paragraph [ref=e377]: Technical / Electrician / Mechanic / Driver
+            - paragraph [ref=e378]: 3 Jobz
+        - generic [ref=e380] [cursor=pointer]:
+          - img
+          - img [ref=e382]
+          - generic [ref=e384]:
+            - paragraph [ref=e385]: Waiter/Waitress
+            - paragraph [ref=e386]: 1 Jobz
+        - generic [ref=e388] [cursor=pointer]:
+          - img
+          - img [ref=e390]
+          - generic [ref=e392]:
+            - paragraph [ref=e393]: Welder / plumber
+            - paragraph [ref=e394]: 1 Jobz
+        - generic [ref=e396] [cursor=pointer]:
+          - img
+          - img [ref=e398]
+          - generic [ref=e400]:
+            - paragraph [ref=e401]: Others
+            - paragraph [ref=e402]: 7 Jobz
+    - generic [ref=e405]:
+      - generic [ref=e408] [cursor=pointer]:
+        - generic [ref=e409]:
+          - paragraph [ref=e410]: Build Your Own CV
+          - paragraph [ref=e411]: Utilize our templates to create a modern CV showcasing your achievements.
+        - img "Build Your Own CV image" [ref=e413]
+      - generic [ref=e416] [cursor=pointer]:
+        - generic [ref=e417]:
+          - paragraph [ref=e418]: Professional Templates
+          - paragraph [ref=e419]: Choose from our collection of professionally designed CV templates.
+        - img "Professional Templates image" [ref=e421]
+      - generic [ref=e424] [cursor=pointer]:
+        - generic [ref=e425]:
+          - paragraph [ref=e426]: Stand Out to Employers
+          - paragraph [ref=e427]: Create a CV that gets noticed by top companies and recruiters.
+        - img "Stand Out to Employers image" [ref=e429]
+    - generic [ref=e434]:
+      - heading "Explore More" [level=5] [ref=e436]
+      - generic [ref=e439]:
+        - generic [ref=e441] [cursor=pointer]:
+          - img
+          - paragraph [ref=e442]: Study in Abroad
+          - img [ref=e444]
+        - generic [ref=e451] [cursor=pointer]:
+          - img
+          - paragraph [ref=e452]: Career Guidance
+          - img [ref=e454]
+        - generic [ref=e465] [cursor=pointer]:
+          - img
+          - paragraph [ref=e466]: Mock Interview
+          - img [ref=e468]
+        - generic [ref=e475] [cursor=pointer]:
+          - img
+          - paragraph [ref=e476]: Learning Lab
+          - img [ref=e478]
+        - generic [ref=e482] [cursor=pointer]:
+          - img
+          - paragraph [ref=e483]: Universities
+          - img [ref=e485]
+        - generic [ref=e517] [cursor=pointer]:
+          - img
+          - paragraph [ref=e518]: Jobz Abroad
+          - img [ref=e520]
+        - generic [ref=e523] [cursor=pointer]:
+          - img
+          - paragraph [ref=e524]: Events & Programs
+          - img [ref=e526]
+        - generic [ref=e554] [cursor=pointer]:
+          - img
+          - paragraph [ref=e555]: Corporate Network
+          - img [ref=e557]
+    - generic [ref=e601]:
+      - heading "Top Companies Hiring" [level=5] [ref=e603]
+      - generic [ref=e604]:
+        - generic [ref=e605] [cursor=pointer]:
+          - img "Epyllion Group" [ref=e607]
+          - paragraph [ref=e608]: Epyllion Group
+          - paragraph [ref=e609]: 19 Jobz open
+        - generic [ref=e610] [cursor=pointer]:
+          - img "Concord Group" [ref=e612]
+          - paragraph [ref=e613]: Concord Group
+          - paragraph [ref=e614]: 12 Jobz open
+        - generic [ref=e615] [cursor=pointer]:
+          - img "Minister Hi-Tech Park Ltd." [ref=e617]
+          - paragraph [ref=e618]: Minister Hi-Tech Park Ltd.
+          - paragraph [ref=e619]: 9 Jobz open
+        - generic [ref=e620] [cursor=pointer]:
+          - img "Saic Group" [ref=e622]
+          - paragraph [ref=e623]: Saic Group
+          - paragraph [ref=e624]: 9 Jobz open
+        - generic [ref=e625] [cursor=pointer]:
+          - img "M & J Group" [ref=e627]
+          - paragraph [ref=e628]: M & J Group
+          - paragraph [ref=e629]: 9 Jobz open
+        - generic [ref=e630] [cursor=pointer]:
+          - img "SQ Group" [ref=e632]
+          - paragraph [ref=e633]: SQ Group
+          - paragraph [ref=e634]: 8 Jobz open
+        - generic [ref=e635] [cursor=pointer]:
+          - img "BRACNet Limited" [ref=e637]
+          - paragraph [ref=e638]: BRACNet Limited
+          - paragraph [ref=e639]: 7 Jobz open
+        - generic [ref=e640] [cursor=pointer]:
+          - img "Goni Group" [ref=e642]
+          - paragraph [ref=e643]: Goni Group
+          - paragraph [ref=e644]: 7 Jobz open
+        - generic [ref=e645] [cursor=pointer]:
+          - img "Esquire Group" [ref=e647]
+          - paragraph [ref=e648]: Esquire Group
+          - paragraph [ref=e649]: 7 Jobz open
+        - generic [ref=e650] [cursor=pointer]:
+          - img "Pretty Group" [ref=e652]
+          - paragraph [ref=e653]: Pretty Group
+          - paragraph [ref=e654]: 7 Jobz open
+        - generic [ref=e655] [cursor=pointer]:
+          - img "Akij Resources" [ref=e657]
+          - paragraph [ref=e658]: Akij Resources
+          - paragraph [ref=e659]: 7 Jobz open
+        - generic [ref=e660] [cursor=pointer]:
+          - img "JSK Group" [ref=e662]
+          - paragraph [ref=e663]: JSK Group
+          - paragraph [ref=e664]: 6 Jobz open
+        - generic [ref=e665] [cursor=pointer]:
+          - img "Society for Assistance to Hearing Impaired Children (SAHIC)" [ref=e667]
+          - paragraph [ref=e668]: Society for Assistance to Hearing Impaired Children (SAHIC)
+          - paragraph [ref=e669]: 5 Jobz open
+        - generic [ref=e670] [cursor=pointer]:
+          - img "Asia Continental Group (BD)" [ref=e672]
+          - paragraph [ref=e673]: Asia Continental Group (BD)
+          - paragraph [ref=e674]: 5 Jobz open
+        - generic [ref=e675] [cursor=pointer]:
+          - img "Merchant Overseas" [ref=e677]
+          - paragraph [ref=e678]: Merchant Overseas
+          - paragraph [ref=e679]: 4 Jobz open
+        - generic [ref=e680] [cursor=pointer]:
+          - img "iFarmer" [ref=e682]
+          - paragraph [ref=e683]: iFarmer
+          - paragraph [ref=e684]: 4 Jobz open
+        - generic [ref=e685] [cursor=pointer]:
+          - img "VIYELLATEX Group" [ref=e687]
+          - paragraph [ref=e688]: VIYELLATEX Group
+          - paragraph [ref=e689]: 4 Jobz open
+        - generic [ref=e690] [cursor=pointer]:
+          - img "Akij Venture Ltd." [ref=e692]
+          - paragraph [ref=e693]: Akij Venture Ltd.
+          - paragraph [ref=e694]: 4 Jobz open
+  - generic [ref=e699]:
+    - generic [ref=e700] [cursor=pointer]:
+      - img [ref=e701]
+      - paragraph [ref=e703]: Home
+    - generic [ref=e704] [cursor=pointer]:
+      - img [ref=e705]
+      - paragraph [ref=e708]: Profile
+    - generic [ref=e709] [cursor=pointer]:
+      - img [ref=e710]
+      - paragraph [ref=e717]: Jobz
+    - generic [ref=e718] [cursor=pointer]:
+      - img [ref=e719]
+      - paragraph [ref=e724]: Dashboard
+    - generic [ref=e725] [cursor=pointer]:
+      - img [ref=e726]
+      - paragraph [ref=e736]: More
+```

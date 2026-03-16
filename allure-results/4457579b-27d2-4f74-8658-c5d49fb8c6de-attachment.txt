@@ -1,4 +1,0 @@
-Button "Add Experience" visibility: true
-Button "Add Education" visibility: true
-Button "Add Project" visibility: true
-Button "Add Link" visibility: true

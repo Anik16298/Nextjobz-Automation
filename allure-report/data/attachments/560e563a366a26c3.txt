@@ -1,0 +1,10 @@
+Profile Menu Items: {
+  Profile: true,
+  Dashboard: true,
+  'Saved Jobz': true,
+  'Recommended Jobz': true,
+  'Applied Jobz': true,
+  'Enrolled Trainings': true,
+  Settings: true,
+  Logout: true
+}

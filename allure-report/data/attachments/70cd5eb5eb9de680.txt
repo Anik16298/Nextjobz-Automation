@@ -1,0 +1,4 @@
+Button "Add Experience" visibility: true
+Button "Add Education" visibility: true
+Button "Add Skill" visibility: true
+Button "Add Certification" visibility: true

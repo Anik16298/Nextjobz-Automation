@@ -1,0 +1,753 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e4]:
+  - generic [ref=e7]:
+    - link "App Logo" [ref=e9] [cursor=pointer]:
+      - /url: /
+      - img "App Logo" [ref=e10]
+    - generic [ref=e11]:
+      - link "Jobz" [ref=e13] [cursor=pointer]:
+        - /url: /jobs
+      - link "Career Development" [ref=e15] [cursor=pointer]:
+        - /url: /career-guidance
+      - link "Career Abroad" [ref=e17] [cursor=pointer]:
+        - /url: /career-abroad
+      - link "Campus Connect" [ref=e19] [cursor=pointer]:
+        - /url: /campus-connect
+    - generic [ref=e20]:
+      - button "Sign In" [ref=e21] [cursor=pointer]: Sign In
+      - button "Create Account" [ref=e22] [cursor=pointer]: Create Account
+      - separator [ref=e24]
+      - link "For Employers" [ref=e26] [cursor=pointer]:
+        - /url: /
+  - generic [ref=e27]:
+    - generic [ref=e30]:
+      - generic [ref=e32]:
+        - generic [ref=e33]:
+          - paragraph [ref=e35]:
+            - 'generic "Rotating text: With the AI-Powered Platform, With Akij Resource’s Trusted Guidance, With Confidence in Every Move" [ref=e36]':
+              - generic [ref=e37]:
+                - generic [ref=e38]: With the AI-Powered Platform
+                - generic [ref=e39]: With Akij Resource’s Trusted Guidance
+                - generic [ref=e40]: With Confidence in Every Move
+          - heading "Find Top Jobs | Grow Your Career" [level=1] [ref=e41]:
+            - text: Find Top Jobs
+            - generic [ref=e42]: "|"
+            - generic [ref=e43]: Grow Your Career
+        - generic [ref=e44]:
+          - generic [ref=e45]:
+            - generic [ref=e46]:
+              - generic [ref=e48]:
+                - img [ref=e49]
+                - textbox [ref=e53]
+                - group
+              - generic:
+                - generic:
+                  - text: E
+                  - generic: "|"
+            - button "Search" [ref=e54] [cursor=pointer]: Search
+          - generic [ref=e55]:
+            - generic [ref=e56] [cursor=pointer]:
+              - img "Government Republic of Bangladesh Logo" [ref=e57]
+              - text: Govt. job
+            - generic [ref=e58] [cursor=pointer]: Internship
+            - generic [ref=e59] [cursor=pointer]: Part-time
+            - generic [ref=e60] [cursor=pointer]: Remote
+            - generic [ref=e61] [cursor=pointer]: Fresher
+            - generic [ref=e62] [cursor=pointer]: In Dhaka
+            - generic [ref=e63] [cursor=pointer]: In Chittagong
+            - generic [ref=e64] [cursor=pointer]: IT
+            - generic [ref=e65] [cursor=pointer]: NGO
+            - generic [ref=e66] [cursor=pointer]: Account
+            - generic [ref=e67] [cursor=pointer]: Finance
+            - generic [ref=e68] [cursor=pointer]: Admin
+            - generic [ref=e69] [cursor=pointer]: Sales & Marketing
+            - generic [ref=e70] [cursor=pointer]: Textile & Garment
+            - generic [ref=e71] [cursor=pointer]:
+              - text: More
+              - img [ref=e72]
+      - generic [ref=e74]:
+        - generic [ref=e75]:
+          - img [ref=e76]
+          - generic [ref=e78]:
+            - paragraph [ref=e79]: "398"
+            - paragraph [ref=e80]: Live Jobz
+        - generic [ref=e81]:
+          - img [ref=e82]
+          - generic [ref=e89]:
+            - paragraph [ref=e90]: "2261"
+            - paragraph [ref=e91]: Vacancies
+        - generic [ref=e92]:
+          - img [ref=e93]
+          - generic [ref=e95]:
+            - paragraph [ref=e96]: "151"
+            - paragraph [ref=e97]: Organizations
+      - generic [ref=e99]:
+        - img "Promotion graphic" [ref=e100]
+        - generic [ref=e101]:
+          - generic [ref=e102]:
+            - heading "Find Jobs from Top BD Vacancies and Build Career" [level=2] [ref=e103]
+            - paragraph [ref=e104]: nextjobz helps you explore careers, build professional skills, and connect with global opportunities that match your goals, leveraging the power of AI.
+          - img "Promotion graphic" [ref=e106]
+    - generic [ref=e109]:
+      - generic [ref=e110]:
+        - generic [ref=e111]:
+          - heading "Jobs in Bangladesh by Category" [level=2] [ref=e112]
+          - paragraph [ref=e113]:
+            - text: Browse career opportunities across growing industries. Quickly filter to find
+            - text: opportunities in development, design, marketing, finance, and more.
+        - button "Explore All" [ref=e114] [cursor=pointer]:
+          - text: Explore All
+          - img [ref=e116]
+      - generic [ref=e120]:
+        - generic [ref=e122] [cursor=pointer]:
+          - generic [ref=e123]:
+            - paragraph [ref=e124]: Accounting / Finance
+            - paragraph [ref=e125]: 19Open positions
+          - generic [ref=e126]:
+            - img "Logo 1" [ref=e127]
+            - img "Logo 2" [ref=e128]
+            - img "Logo 3" [ref=e129]
+            - img "Logo 4" [ref=e130]
+            - img "Logo 5" [ref=e131]
+            - button "+More" [ref=e132]: +More
+        - generic [ref=e134] [cursor=pointer]:
+          - generic [ref=e135]:
+            - paragraph [ref=e136]: Agriculture / Environment / Forestry
+            - paragraph [ref=e137]: 3Open positions
+          - generic [ref=e138]:
+            - img "Logo 1" [ref=e139]
+            - img "Logo 2" [ref=e140]
+            - img "Logo 3" [ref=e141]
+        - generic [ref=e143] [cursor=pointer]:
+          - generic [ref=e144]:
+            - paragraph [ref=e145]: Architecture / Interior Design
+            - paragraph [ref=e146]: 5Open positions
+          - generic [ref=e147]:
+            - img "Logo 1" [ref=e148]
+            - img "Logo 2" [ref=e149]
+            - img "Logo 3" [ref=e150]
+        - generic [ref=e152] [cursor=pointer]:
+          - generic [ref=e153]:
+            - paragraph [ref=e154]: Banking / Non-Banking Financial Institution
+            - paragraph [ref=e155]: 4Open positions
+          - generic [ref=e156]:
+            - img "Logo 1" [ref=e157]
+            - img "Logo 2" [ref=e158]
+            - img "Logo 3" [ref=e159]
+            - img "Logo 4" [ref=e160]
+        - generic [ref=e162] [cursor=pointer]:
+          - generic [ref=e163]:
+            - paragraph [ref=e164]: BPO / Data Entry / Call Center
+            - paragraph [ref=e165]: 5Open positions
+          - generic [ref=e166]:
+            - img "Logo 1" [ref=e167]
+            - img "Logo 2" [ref=e168]
+            - img "Logo 3" [ref=e169]
+        - generic [ref=e171] [cursor=pointer]:
+          - generic [ref=e172]:
+            - paragraph [ref=e173]: Commercial / Supply Chain / Procurement
+            - paragraph [ref=e174]: 7Open positions
+          - generic [ref=e175]:
+            - img "Logo 1" [ref=e176]
+            - img "Logo 2" [ref=e177]
+            - img "Logo 3" [ref=e178]
+        - generic [ref=e180] [cursor=pointer]:
+          - generic [ref=e181]:
+            - paragraph [ref=e182]: Company Secretary / Regulatory Affairs
+            - paragraph [ref=e183]: 2Open positions
+          - generic [ref=e184]:
+            - img "Logo 1" [ref=e185]
+            - img "Logo 2" [ref=e186]
+        - generic [ref=e188] [cursor=pointer]:
+          - generic [ref=e189]:
+            - paragraph [ref=e190]: Creative / Design / Multimedia
+            - paragraph [ref=e191]: 8Open positions
+          - generic [ref=e192]:
+            - img "Logo 1" [ref=e193]
+            - img "Logo 2" [ref=e194]
+            - img "Logo 3" [ref=e195]
+            - img "Logo 4" [ref=e196]
+            - img "Logo 5" [ref=e197]
+            - button "+More" [ref=e198]: +More
+        - generic [ref=e200] [cursor=pointer]:
+          - generic [ref=e201]:
+            - paragraph [ref=e202]: Customer Service / Support
+            - paragraph [ref=e203]: 13Open positions
+          - generic [ref=e204]:
+            - img "Logo 1" [ref=e205]
+            - img "Logo 2" [ref=e206]
+            - img "Logo 3" [ref=e207]
+            - img "Logo 4" [ref=e208]
+            - img "Logo 5" [ref=e209]
+            - button "+More" [ref=e210]: +More
+        - generic [ref=e212] [cursor=pointer]:
+          - generic [ref=e213]:
+            - paragraph [ref=e214]: Education / Teaching
+            - paragraph [ref=e215]: 13Open positions
+          - generic [ref=e216]:
+            - img "Logo 1" [ref=e217]
+            - img "Logo 2" [ref=e218]
+            - img "Logo 3" [ref=e219]
+            - img "Logo 4" [ref=e220]
+            - img "Logo 5" [ref=e221]
+            - button "+More" [ref=e222]: +More
+        - generic [ref=e224] [cursor=pointer]:
+          - generic [ref=e225]:
+            - paragraph [ref=e226]: Engineering (Civil / Mechanical / Electrical / Other)
+            - paragraph [ref=e227]: 21Open positions
+          - generic [ref=e228]:
+            - img "Logo 1" [ref=e229]
+            - img "Logo 2" [ref=e230]
+            - img "Logo 3" [ref=e231]
+            - img "Logo 4" [ref=e232]
+            - img "Logo 5" [ref=e233]
+            - button "+More" [ref=e234]: +More
+        - generic [ref=e236] [cursor=pointer]:
+          - generic [ref=e237]:
+            - paragraph [ref=e238]: Garments / Textile / RMG
+            - paragraph [ref=e239]: 26Open positions
+          - generic [ref=e240]:
+            - img "Logo 1" [ref=e241]
+            - img "Logo 2" [ref=e242]
+            - img "Logo 3" [ref=e243]
+            - img "Logo 4" [ref=e244]
+            - img "Logo 5" [ref=e245]
+            - button "+More" [ref=e246]: +More
+        - generic [ref=e248] [cursor=pointer]:
+          - generic [ref=e249]:
+            - paragraph [ref=e250]: General Management / Administration
+            - paragraph [ref=e251]: 18Open positions
+          - generic [ref=e252]:
+            - img "Logo 1" [ref=e253]
+            - img "Logo 2" [ref=e254]
+            - img "Logo 3" [ref=e255]
+            - img "Logo 4" [ref=e256]
+            - img "Logo 5" [ref=e257]
+            - button "+More" [ref=e258]: +More
+        - generic [ref=e260] [cursor=pointer]:
+          - generic [ref=e261]:
+            - paragraph [ref=e262]: Graphic Design / Animation
+            - paragraph [ref=e263]: 3Open positions
+          - generic [ref=e264]:
+            - img "Logo 1" [ref=e265]
+            - img "Logo 2" [ref=e266]
+            - img "Logo 3" [ref=e267]
+        - generic [ref=e269] [cursor=pointer]:
+          - generic [ref=e270]:
+            - paragraph [ref=e271]: Healthcare / Medical / Hospital
+            - paragraph [ref=e272]: 10Open positions
+          - generic [ref=e273]:
+            - img "Logo 1" [ref=e274]
+            - img "Logo 2" [ref=e275]
+            - img "Logo 3" [ref=e276]
+            - img "Logo 4" [ref=e277]
+            - img "Logo 5" [ref=e278]
+            - button "+More" [ref=e279]: +More
+        - generic [ref=e281] [cursor=pointer]:
+          - generic [ref=e282]:
+            - paragraph [ref=e283]: Hospitality / Hotel / Travel / Tourism
+            - paragraph [ref=e284]: 4Open positions
+          - generic [ref=e285]:
+            - img "Logo 1" [ref=e286]
+            - img "Logo 2" [ref=e287]
+            - img "Logo 3" [ref=e288]
+        - generic [ref=e290] [cursor=pointer]:
+          - generic [ref=e291]:
+            - paragraph [ref=e292]: Human Resource / Organization Development
+            - paragraph [ref=e293]: 17Open positions
+          - generic [ref=e294]:
+            - img "Logo 1" [ref=e295]
+            - img "Logo 2" [ref=e296]
+            - img "Logo 3" [ref=e297]
+            - img "Logo 4" [ref=e298]
+            - img "Logo 5" [ref=e299]
+            - button "+More" [ref=e300]: +More
+        - generic [ref=e302] [cursor=pointer]:
+          - generic [ref=e303]:
+            - paragraph [ref=e304]: Information Technology (IT) / Software / Telecommunication
+            - paragraph [ref=e305]: 20Open positions
+          - generic [ref=e306]:
+            - img "Logo 1" [ref=e307]
+            - img "Logo 2" [ref=e308]
+            - img "Logo 3" [ref=e309]
+            - img "Logo 4" [ref=e310]
+            - img "Logo 5" [ref=e311]
+            - button "+More" [ref=e312]: +More
+        - generic [ref=e314] [cursor=pointer]:
+          - generic [ref=e315]:
+            - paragraph [ref=e316]: Journalism / Content Writing / Editing
+            - paragraph [ref=e317]: 1Open positions
+          - img "Logo 1" [ref=e319]
+        - generic [ref=e321] [cursor=pointer]:
+          - generic [ref=e322]:
+            - paragraph [ref=e323]: Marketing / Sales
+            - paragraph [ref=e324]: 69Open positions
+          - generic [ref=e325]:
+            - img "Logo 1" [ref=e326]
+            - img "Logo 2" [ref=e327]
+            - img "Logo 3" [ref=e328]
+            - img "Logo 4" [ref=e329]
+            - img "Logo 5" [ref=e330]
+            - button "+More" [ref=e331]: +More
+        - generic [ref=e333] [cursor=pointer]:
+          - generic [ref=e334]:
+            - paragraph [ref=e335]: Media / Advertising / Event Management / Public Relations
+            - paragraph [ref=e336]: 4Open positions
+          - generic [ref=e337]:
+            - img "Logo 1" [ref=e338]
+            - img "Logo 2" [ref=e339]
+            - img "Logo 3" [ref=e340]
+        - generic [ref=e342] [cursor=pointer]:
+          - generic [ref=e343]:
+            - paragraph [ref=e344]: NGO / Development / Social Work
+            - paragraph [ref=e345]: 2Open positions
+          - img "Logo 1" [ref=e347]
+        - generic [ref=e349] [cursor=pointer]:
+          - generic [ref=e350]:
+            - paragraph [ref=e351]: Pharmaceutical / Biotech / Lab
+            - paragraph [ref=e352]: 8Open positions
+          - generic [ref=e353]:
+            - img "Logo 1" [ref=e354]
+            - img "Logo 2" [ref=e355]
+            - img "Logo 3" [ref=e356]
+            - img "Logo 4" [ref=e357]
+            - img "Logo 5" [ref=e358]
+        - generic [ref=e360] [cursor=pointer]:
+          - generic [ref=e361]:
+            - paragraph [ref=e362]: Production / Operation / Quality Control
+            - paragraph [ref=e363]: 28Open positions
+          - generic [ref=e364]:
+            - img "Logo 1" [ref=e365]
+            - img "Logo 2" [ref=e366]
+            - img "Logo 3" [ref=e367]
+            - img "Logo 4" [ref=e368]
+            - img "Logo 5" [ref=e369]
+        - generic [ref=e371] [cursor=pointer]:
+          - generic [ref=e372]:
+            - paragraph [ref=e373]: Project / Research / Consultancy
+            - paragraph [ref=e374]: 6Open positions
+          - generic [ref=e375]:
+            - img "Logo 1" [ref=e376]
+            - img "Logo 2" [ref=e377]
+        - generic [ref=e379] [cursor=pointer]:
+          - generic [ref=e380]:
+            - paragraph [ref=e381]: Real Estate / Property Development
+            - paragraph [ref=e382]: 3Open positions
+          - generic [ref=e383]:
+            - img "Logo 1" [ref=e384]
+            - img "Logo 2" [ref=e385]
+            - img "Logo 3" [ref=e386]
+        - generic [ref=e388] [cursor=pointer]:
+          - generic [ref=e389]:
+            - paragraph [ref=e390]: Retail / Super Shop / E-commerce
+            - paragraph [ref=e391]: 4Open positions
+          - generic [ref=e392]:
+            - img "Logo 1" [ref=e393]
+            - img "Logo 2" [ref=e394]
+        - generic [ref=e396] [cursor=pointer]:
+          - generic [ref=e397]:
+            - paragraph [ref=e398]: Supply Chain / Logistics / Procurement
+            - paragraph [ref=e399]: 1Open positions
+          - img "Logo 1" [ref=e401]
+        - generic [ref=e403] [cursor=pointer]:
+          - generic [ref=e404]:
+            - paragraph [ref=e405]: Training / Coaching / Career Development
+            - paragraph [ref=e406]: 2Open positions
+          - img "Logo 1" [ref=e408]
+        - generic [ref=e410] [cursor=pointer]:
+          - generic [ref=e411]:
+            - paragraph [ref=e412]: Caregiver/Nanny
+            - paragraph [ref=e413]: 1Open positions
+          - img "Logo 1" [ref=e415]
+        - generic [ref=e417] [cursor=pointer]:
+          - generic [ref=e418]:
+            - paragraph [ref=e419]: Chef/ Cook
+            - paragraph [ref=e420]: 5Open positions
+          - generic [ref=e421]:
+            - img "Logo 1" [ref=e422]
+            - img "Logo 2" [ref=e423]
+            - img "Logo 3" [ref=e424]
+            - img "Logo 4" [ref=e425]
+        - generic [ref=e427] [cursor=pointer]:
+          - generic [ref=e428]:
+            - paragraph [ref=e429]: Deliveryman/Rider/Picker/Load-Unloader
+            - paragraph [ref=e430]: 1Open positions
+          - img "Logo 1" [ref=e432]
+        - generic [ref=e434] [cursor=pointer]:
+          - generic [ref=e435]:
+            - paragraph [ref=e436]: Driver
+            - paragraph [ref=e437]: 1Open positions
+          - img "Logo 1" [ref=e439]
+        - generic [ref=e441] [cursor=pointer]:
+          - generic [ref=e442]:
+            - paragraph [ref=e443]: Office Support / Front Desk / Reception
+            - paragraph [ref=e444]: 3Open positions
+          - generic [ref=e445]:
+            - img "Logo 1" [ref=e446]
+            - img "Logo 2" [ref=e447]
+            - img "Logo 3" [ref=e448]
+        - generic [ref=e450] [cursor=pointer]:
+          - generic [ref=e451]:
+            - paragraph [ref=e452]: Pathologist/ Lab Assistant
+            - paragraph [ref=e453]: 1Open positions
+          - img "Logo 1" [ref=e455]
+        - generic [ref=e457] [cursor=pointer]:
+          - generic [ref=e458]:
+            - paragraph [ref=e459]: Peon / Office Assistant
+            - paragraph [ref=e460]: 4Open positions
+          - generic [ref=e461]:
+            - img "Logo 1" [ref=e462]
+            - img "Logo 2" [ref=e463]
+        - generic [ref=e465] [cursor=pointer]:
+          - generic [ref=e466]:
+            - paragraph [ref=e467]: Security / Safety / Support Service
+            - paragraph [ref=e468]: 6Open positions
+          - generic [ref=e469]:
+            - img "Logo 1" [ref=e470]
+            - img "Logo 2" [ref=e471]
+            - img "Logo 3" [ref=e472]
+            - img "Logo 4" [ref=e473]
+            - img "Logo 5" [ref=e474]
+            - button "+More" [ref=e475]: +More
+        - generic [ref=e477] [cursor=pointer]:
+          - generic [ref=e478]:
+            - paragraph [ref=e479]: Showroom Assistant/Salesman
+            - paragraph [ref=e480]: 2Open positions
+          - img "Logo 1" [ref=e482]
+        - generic [ref=e484] [cursor=pointer]:
+          - generic [ref=e485]:
+            - paragraph [ref=e486]: Swing Machine Operator/Garments Tehnician
+            - paragraph [ref=e487]: 3Open positions
+          - generic [ref=e488]:
+            - img "Logo 1" [ref=e489]
+            - img "Logo 2" [ref=e490]
+        - generic [ref=e492] [cursor=pointer]:
+          - generic [ref=e493]:
+            - paragraph [ref=e494]: Technical / Electrician / Mechanic / Driver
+            - paragraph [ref=e495]: 3Open positions
+          - generic [ref=e496]:
+            - img "Logo 1" [ref=e497]
+            - img "Logo 2" [ref=e498]
+            - img "Logo 3" [ref=e499]
+        - generic [ref=e501] [cursor=pointer]:
+          - generic [ref=e502]:
+            - paragraph [ref=e503]: Waiter/Waitress
+            - paragraph [ref=e504]: 1Open positions
+          - img "Logo 1" [ref=e506]
+        - generic [ref=e508] [cursor=pointer]:
+          - generic [ref=e509]:
+            - paragraph [ref=e510]: Welder / plumber
+            - paragraph [ref=e511]: 1Open positions
+          - img "Logo 1" [ref=e513]
+        - generic [ref=e515] [cursor=pointer]:
+          - generic [ref=e516]:
+            - paragraph [ref=e517]: Others
+            - paragraph [ref=e518]: 7Open positions
+          - generic [ref=e519]:
+            - img "Logo 1" [ref=e520]
+            - img "Logo 2" [ref=e521]
+            - img "Logo 3" [ref=e522]
+            - img "Logo 4" [ref=e523]
+            - img "Logo 5" [ref=e524]
+    - generic [ref=e540]:
+      - generic [ref=e541]:
+        - generic [ref=e542]:
+          - heading "Top BD Companies with Available Positions" [level=2] [ref=e543]
+          - paragraph [ref=e544]:
+            - text: Browse current openings from the best employers in your field. Your next great career
+            - text: move is waiting at a company you'll love.
+        - button "Explore All" [ref=e545] [cursor=pointer]:
+          - text: Explore All
+          - img [ref=e547]
+      - generic [ref=e551]:
+        - generic [ref=e553] [cursor=pointer]:
+          - generic [ref=e554]:
+            - img "Epyllion Group logo" [ref=e556]
+            - heading "Epyllion Group" [level=6] [ref=e558]
+          - paragraph [ref=e559]: The Power which comes from within, and it lies in everyone, cannot be defeated. This power...
+          - button "19 Jobz Available" [ref=e561]: 19 Jobz Available
+        - generic [ref=e563] [cursor=pointer]:
+          - generic [ref=e564]:
+            - img "Concord Group logo" [ref=e566]
+            - heading "Concord Group" [level=6] [ref=e568]
+          - paragraph [ref=e569]: "\"Concord\" refers to several entities, most prominently Concord Group (Bangladesh), a major..."
+          - button "12 Jobz Available" [ref=e571]: 12 Jobz Available
+        - generic [ref=e573] [cursor=pointer]:
+          - generic [ref=e574]:
+            - img "Minister Hi-Tech Park Ltd. logo" [ref=e576]
+            - heading "Minister Hi-Tech Park Ltd." [level=6] [ref=e578]
+          - paragraph [ref=e579]: Explore available positions at this company
+          - button "9 Jobz Available" [ref=e581]: 9 Jobz Available
+        - generic [ref=e583] [cursor=pointer]:
+          - generic [ref=e584]:
+            - img "Saic Group logo" [ref=e586]
+            - heading "Saic Group" [level=6] [ref=e588]
+          - paragraph [ref=e589]: Explore available positions at this company
+          - button "9 Jobz Available" [ref=e591]: 9 Jobz Available
+        - generic [ref=e593] [cursor=pointer]:
+          - generic [ref=e594]:
+            - img "M & J Group logo" [ref=e596]
+            - heading "M & J Group" [level=6] [ref=e598]
+          - paragraph [ref=e599]: M&J Group is a prominent, family-owned Bangladeshi conglomerate, founded in 1963, known fo...
+          - button "9 Jobz Available" [ref=e601]: 9 Jobz Available
+        - generic [ref=e603] [cursor=pointer]:
+          - generic [ref=e604]:
+            - img "SQ Group logo" [ref=e606]
+            - heading "SQ Group" [level=6] [ref=e608]
+          - paragraph [ref=e609]: Explore available positions at this company
+          - button "8 Jobz Available" [ref=e611]: 8 Jobz Available
+        - generic [ref=e613] [cursor=pointer]:
+          - generic [ref=e614]:
+            - img "BRACNet Limited logo" [ref=e616]
+            - heading "BRACNet Limited" [level=6] [ref=e618]
+          - paragraph [ref=e619]: Explore available positions at this company
+          - button "7 Jobz Available" [ref=e621]: 7 Jobz Available
+        - generic [ref=e623] [cursor=pointer]:
+          - generic [ref=e624]:
+            - img "Goni Group logo" [ref=e626]
+            - heading "Goni Group" [level=6] [ref=e628]
+          - paragraph [ref=e629]: Goni Group is a diversified Bangladeshi business conglomerate, started in 1940, involved i...
+          - button "7 Jobz Available" [ref=e631]: 7 Jobz Available
+        - generic [ref=e633] [cursor=pointer]:
+          - generic [ref=e634]:
+            - img "Esquire Group logo" [ref=e636]
+            - heading "Esquire Group" [level=6] [ref=e638]
+          - paragraph [ref=e639]: Esquire Group started as a private family business in 1989 in the electronics goods indust...
+          - button "7 Jobz Available" [ref=e641]: 7 Jobz Available
+        - generic [ref=e643] [cursor=pointer]:
+          - generic [ref=e644]:
+            - img "Pretty Group logo" [ref=e646]
+            - heading "Pretty Group" [level=6] [ref=e648]
+          - paragraph [ref=e649]: Pretty Group is a large Bangladeshi conglomerate established in 2001 that primarily focuse...
+          - button "7 Jobz Available" [ref=e651]: 7 Jobz Available
+        - generic [ref=e653] [cursor=pointer]:
+          - generic [ref=e654]:
+            - img "Akij Resources logo" [ref=e656]
+            - heading "Akij Resources" [level=6] [ref=e658]
+          - paragraph [ref=e659]: AKIJ Resource is one of the country’s largest and fastest-growing business groups, active ...
+          - button "7 Jobz Available" [ref=e661]: 7 Jobz Available
+        - generic [ref=e663] [cursor=pointer]:
+          - generic [ref=e664]:
+            - img "JSK Group logo" [ref=e666]
+            - heading "JSK Group" [level=6] [ref=e668]
+          - paragraph [ref=e669]: Explore available positions at this company
+          - button "6 Jobz Available" [ref=e671]: 6 Jobz Available
+        - generic [ref=e673] [cursor=pointer]:
+          - generic [ref=e674]:
+            - img "Society for Assistance to Hearing Impaired Children (SAHIC) logo" [ref=e676]
+            - heading "Society for Assistance to Hearing Impaired Children (SAHIC)" [level=6] [ref=e678]
+          - paragraph [ref=e679]: Explore available positions at this company
+          - button "5 Jobz Available" [ref=e681]: 5 Jobz Available
+        - generic [ref=e683] [cursor=pointer]:
+          - generic [ref=e684]:
+            - img "Asia Continental Group (BD) logo" [ref=e686]
+            - heading "Asia Continental Group (BD)" [level=6] [ref=e688]
+          - paragraph [ref=e689]: Asia Continental Group (BD) is a government-approved, experienced Bangladeshi internationa...
+          - button "5 Jobz Available" [ref=e691]: 5 Jobz Available
+        - generic [ref=e693] [cursor=pointer]:
+          - generic [ref=e694]:
+            - img "Merchant Overseas logo" [ref=e696]
+            - heading "Merchant Overseas" [level=6] [ref=e698]
+          - paragraph [ref=e699]: Explore available positions at this company
+          - button "4 Jobz Available" [ref=e701]: 4 Jobz Available
+        - generic [ref=e703] [cursor=pointer]:
+          - generic [ref=e704]:
+            - img "iFarmer logo" [ref=e706]
+            - heading "iFarmer" [level=6] [ref=e708]
+          - paragraph [ref=e709]: iFarmer is building Bangladesh’s most trusted platform that connects farmers, Agri-retaile...
+          - button "4 Jobz Available" [ref=e711]: 4 Jobz Available
+        - generic [ref=e713] [cursor=pointer]:
+          - generic [ref=e714]:
+            - img "VIYELLATEX Group logo" [ref=e716]
+            - heading "VIYELLATEX Group" [level=6] [ref=e718]
+          - paragraph [ref=e719]: It all started as a small family business of knit apparel manufacturing in 1996 and since ...
+          - button "4 Jobz Available" [ref=e721]: 4 Jobz Available
+        - generic [ref=e723] [cursor=pointer]:
+          - generic [ref=e724]:
+            - img "Akij Venture Ltd. logo" [ref=e726]
+            - heading "Akij Venture Ltd." [level=6] [ref=e728]
+          - paragraph [ref=e729]: Akij Venture is a business conglomerate in Bangladesh that is a concern of the Akij Group,...
+          - button "4 Jobz Available" [ref=e731]: 4 Jobz Available
+    - generic [ref=e743]:
+      - generic [ref=e744]:
+        - heading "Build a Winning CV" [level=2] [ref=e745]
+        - paragraph [ref=e746]: With our AI-powered builder, you can create a professional, globally accepted CV that highlights your skills the right way and gets seen by employers faster.
+        - button "Build Your CV" [ref=e748] [cursor=pointer]:
+          - text: Build Your CV
+          - img [ref=e750]
+      - img "CV Builder Content" [ref=e754]
+    - generic [ref=e757]:
+      - generic [ref=e759]:
+        - heading "Career Guidance" [level=2] [ref=e760]
+        - paragraph [ref=e761]:
+          - text: Explore insights, strategies, and industry updates to help you navigate
+          - text: your job search with confidence.
+      - generic [ref=e764]:
+        - generic [ref=e766] [cursor=pointer]:
+          - 'img "Ace Job Interviews Like A Pro: A Complete Guide image" [ref=e768]'
+          - generic [ref=e769]:
+            - generic [ref=e770]:
+              - generic [ref=e771]:
+                - img [ref=e772]
+                - generic [ref=e776]: 8 Aug, 2025
+              - generic [ref=e777]:
+                - img [ref=e778]
+                - generic [ref=e781]: "6"
+              - generic [ref=e782]:
+                - img [ref=e783]
+                - generic [ref=e786]: "2187"
+            - generic [ref=e787]:
+              - generic [ref=e788]:
+                - paragraph [ref=e789]: "Ace Job Interviews Like A Pro: A Complete Guide"
+                - paragraph [ref=e790]: Learn why transportation mangement company shipwell swicthed to webflow to
+              - generic [ref=e791]:
+                - paragraph [ref=e792]: Read More
+                - img [ref=e793]
+        - generic [ref=e796] [cursor=pointer]:
+          - 'img "The Evolution of the Online Career Portal in Bangladesh: A Strategic Workforce Model by nextjobz image" [ref=e798]'
+          - generic [ref=e799]:
+            - generic [ref=e800]:
+              - generic [ref=e801]:
+                - img [ref=e802]
+                - generic [ref=e806]: 18 Feb, 2026
+              - generic [ref=e807]:
+                - img [ref=e808]
+                - generic [ref=e811]: "6"
+              - generic [ref=e812]:
+                - img [ref=e813]
+                - generic [ref=e816]: "113"
+            - generic [ref=e817]:
+              - generic [ref=e818]:
+                - paragraph [ref=e819]: The Evolution of the Online Career Portal in Bangl...
+                - paragraph [ref=e820]: You wake up early, open your laptop, and start scrolling through job sites.
+              - generic [ref=e821]:
+                - paragraph [ref=e822]: Read More
+                - img [ref=e823]
+        - generic [ref=e826] [cursor=pointer]:
+          - 'img "From Good to Great: How to Write a CV That Beats the System image" [ref=e828]'
+          - generic [ref=e829]:
+            - generic [ref=e830]:
+              - generic [ref=e831]:
+                - img [ref=e832]
+                - generic [ref=e836]: 8 Aug, 2025
+              - generic [ref=e837]:
+                - img [ref=e838]
+                - generic [ref=e841]: "5"
+              - generic [ref=e842]:
+                - img [ref=e843]
+                - generic [ref=e846]: "2264"
+            - generic [ref=e847]:
+              - generic [ref=e848]:
+                - paragraph [ref=e849]: "From Good to Great: How to Write a CV That Beats t..."
+                - paragraph [ref=e850]: Learn why transportation mangement company shipwell swicthed to webflow to
+              - generic [ref=e851]:
+                - paragraph [ref=e852]: Read More
+                - img [ref=e853]
+  - contentinfo "Site footer" [ref=e855]:
+    - generic [ref=e856]:
+      - generic [ref=e857]:
+        - generic [ref=e858]:
+          - generic [ref=e859]:
+            - link "App Logo" [ref=e860] [cursor=pointer]:
+              - /url: /
+              - img "App Logo" [ref=e861]
+            - generic [ref=e862]:
+              - paragraph [ref=e863]: "Follow Us :"
+              - navigation "Social media links" [ref=e864]:
+                - link "Follow nextjobz on Facebook" [ref=e865] [cursor=pointer]:
+                  - /url: https://www.facebook.com/nextjobz
+                  - img [ref=e866]
+                - link "Follow nextjobz on X" [ref=e868] [cursor=pointer]:
+                  - /url: https://www.x.com/@nextjobz
+                  - img [ref=e869]
+                - link "Follow nextjobz on Instagram" [ref=e871] [cursor=pointer]:
+                  - /url: https://www.instagram.com/next.jobz
+                  - img [ref=e872]
+                - link "Follow nextjobz on LinkedIn" [ref=e876] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/next-jobz
+                  - img [ref=e877]
+                - link "Follow nextjobz on YouTube" [ref=e880] [cursor=pointer]:
+                  - /url: https://www.youtube.com/@nextjobz
+                  - img [ref=e881]
+          - navigation "Footer navigation" [ref=e884]:
+            - generic [ref=e885]:
+              - heading "Company" [level=3] [ref=e886]
+              - list [ref=e887]:
+                - listitem [ref=e888]:
+                  - link "About Us" [ref=e889] [cursor=pointer]:
+                    - /url: /about-us
+                - listitem [ref=e890]:
+                  - link "Our Team" [ref=e891] [cursor=pointer]:
+                    - /url: /our-team
+                - listitem [ref=e892]:
+                  - link "Contact" [ref=e893] [cursor=pointer]:
+                    - /url: /contact-us
+                - listitem [ref=e894]:
+                  - link "Terms of Service" [ref=e895] [cursor=pointer]:
+                    - /url: /terms-of-use
+                - listitem [ref=e896]:
+                  - link "Privacy Policy" [ref=e897] [cursor=pointer]:
+                    - /url: /privacyPolicy
+                - listitem [ref=e898]:
+                  - link "Refund Policy" [ref=e899] [cursor=pointer]:
+                    - /url: /refund-policy
+            - generic [ref=e900]:
+              - heading "Employers" [level=3] [ref=e901]
+              - list [ref=e902]:
+                - listitem [ref=e903]:
+                  - link "Services" [ref=e904] [cursor=pointer]:
+                    - /url: https://employers.nextjobz.com.bd/employer#key-services
+                - listitem [ref=e905]:
+                  - link "Head Hunting" [ref=e906] [cursor=pointer]:
+                    - /url: /headhunting
+                - listitem [ref=e907]:
+                  - link "Learning Lab" [ref=e908] [cursor=pointer]:
+                    - /url: /learning-lab
+                - listitem [ref=e909]:
+                  - link "Hiring Advice" [ref=e910] [cursor=pointer]:
+                    - /url: /hiring-advice
+                - listitem [ref=e911]:
+                  - link "FAQ" [ref=e912] [cursor=pointer]:
+                    - /url: /faq
+            - generic [ref=e913]:
+              - heading "Job Seekers" [level=3] [ref=e914]
+              - list [ref=e915]:
+                - listitem [ref=e916]:
+                  - link "Jobz" [ref=e917] [cursor=pointer]:
+                    - /url: /jobs
+                - listitem [ref=e918]:
+                  - link "Mid Career" [ref=e919] [cursor=pointer]:
+                    - /url: /mid-career
+                - listitem [ref=e920]:
+                  - link "Career Abroad" [ref=e921] [cursor=pointer]:
+                    - /url: /career-abound
+                - listitem [ref=e922]:
+                  - link "Learning Lab" [ref=e923] [cursor=pointer]:
+                    - /url: /learning-lab
+                - listitem [ref=e924]:
+                  - link "Career Guidance" [ref=e925] [cursor=pointer]:
+                    - /url: /career-guidance
+            - generic [ref=e926]:
+              - heading "Need any support?" [level=3] [ref=e927]
+              - generic [ref=e928]:
+                - generic [ref=e929]:
+                  - img [ref=e931]
+                  - generic [ref=e934]: 198 Bir Uttam, Mir Shawkat Sarak, Gulshan Link Road, Tejgaon, Dhaka-1208.
+                - generic [ref=e935]:
+                  - img [ref=e937]
+                  - link "+88 01335172200" [ref=e940] [cursor=pointer]:
+                    - /url: https://wa.me/8801335172200
+                - generic [ref=e941]:
+                  - img [ref=e943]
+                  - link "support@nextjobz.work" [ref=e946] [cursor=pointer]:
+                    - /url: mailto:support@nextjobz.work?subject=Need%20Help&body=
+        - separator [ref=e947]
+        - generic [ref=e948]:
+          - paragraph [ref=e949]: Copyright © 2026, All Rights Reserved by nextjobz Ltd.
+          - generic [ref=e950]:
+            - paragraph [ref=e951]: "Powered by:"
+            - img "Akij Resource — parent company of nextjobz" [ref=e952]
+      - img "Accepted payment methods including bKash, Nagad, Visa, and Mastercard" [ref=e954]
+```

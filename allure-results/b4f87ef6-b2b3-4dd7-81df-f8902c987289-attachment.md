@@ -1,0 +1,705 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - generic [ref=e6]:
+    - link "App Logo" [ref=e8] [cursor=pointer]:
+      - /url: /
+      - img "App Logo" [ref=e9]
+    - generic [ref=e10]:
+      - link "Jobz" [ref=e12] [cursor=pointer]:
+        - /url: /jobs
+      - link "Career Development" [ref=e14] [cursor=pointer]:
+        - /url: /career-guidance
+      - link "Career Abroad" [ref=e16] [cursor=pointer]:
+        - /url: /career-abroad
+      - link "Campus Connect" [ref=e18] [cursor=pointer]:
+        - /url: /campus-connect
+    - generic [ref=e20]:
+      - button [ref=e21] [cursor=pointer]:
+        - img [ref=e23]
+      - button [ref=e25] [cursor=pointer]:
+        - img [ref=e26]
+      - generic [ref=e30] [cursor=pointer]:
+        - img "Anik Chakraborty" [ref=e32]
+        - paragraph [ref=e33]: Anik Chakrabort...
+        - img [ref=e34]
+  - generic [ref=e36]:
+    - generic [ref=e37]:
+      - generic [ref=e39]:
+        - generic [ref=e41]:
+          - generic [ref=e43]:
+            - img "Avatar Preview" [ref=e45]
+            - button "upload-photo" [ref=e46] [cursor=pointer]:
+              - img [ref=e47]
+            - button "remove-photo" [ref=e50] [cursor=pointer]:
+              - img [ref=e51]
+          - generic [ref=e53]:
+            - heading "Anik Chakraborty" [level=4] [ref=e54]
+            - paragraph [ref=e55]: SQA Engineer
+            - generic [ref=e56]:
+              - img [ref=e57]
+              - paragraph [ref=e59]: arunabhoanik@gmail.com
+            - generic [ref=e60]:
+              - img [ref=e61]
+              - paragraph [ref=e64]: "01831422264"
+            - button "Share" [ref=e66] [cursor=pointer]: Share
+        - generic [ref=e68]:
+          - progressbar [ref=e69]:
+            - img [ref=e70]
+          - progressbar [ref=e72]:
+            - img [ref=e73]
+          - heading "100%" [level=4] [ref=e76]
+      - generic [ref=e79]:
+        - button "Personal Details" [ref=e81] [cursor=pointer]:
+          - generic [ref=e82]:
+            - img [ref=e85]
+            - generic [ref=e88]: Personal Details
+        - button "Career Snapshot" [ref=e92] [cursor=pointer]:
+          - generic [ref=e93]:
+            - img [ref=e96]
+            - generic [ref=e99]: Career Snapshot
+        - button "Work Experience" [ref=e103] [cursor=pointer]:
+          - generic [ref=e104]:
+            - img [ref=e107]
+            - generic [ref=e110]: Work Experience
+        - button "Education" [ref=e114] [cursor=pointer]:
+          - generic [ref=e115]:
+            - img [ref=e118]
+            - generic [ref=e121]: Education
+        - button "Skills & Expertise" [ref=e125] [cursor=pointer]:
+          - generic [ref=e126]:
+            - img [ref=e129]
+            - generic [ref=e132]: Skills & Expertise
+        - button "Other Information" [ref=e136] [cursor=pointer]:
+          - generic [ref=e137]:
+            - img [ref=e140]
+            - generic [ref=e143]: Other Information
+      - generic [ref=e144]:
+        - generic [ref=e146]:
+          - generic [ref=e147]:
+            - generic [ref=e148]:
+              - img [ref=e149]
+              - heading "Personal Details" [level=6] [ref=e153]
+            - button [ref=e154] [cursor=pointer]:
+              - img [ref=e155]
+          - generic [ref=e158]:
+            - paragraph [ref=e160]: Mobile Number
+            - paragraph [ref=e162]: "01831422264"
+          - generic [ref=e163]:
+            - paragraph [ref=e165]: Professional Title
+            - paragraph [ref=e167]: SQA Engineer
+          - generic [ref=e168]:
+            - paragraph [ref=e170]: Present Address
+            - paragraph [ref=e172]: House no:13, Road:02, Block:C, Kaderabad housing, Mohammadpur, Dhaka-1207.
+          - generic [ref=e173]:
+            - paragraph [ref=e175]: Permanent Address
+            - paragraph [ref=e177]: Hazi chitu mia para
+          - generic [ref=e178]:
+            - paragraph [ref=e180]: Date of birth
+            - paragraph [ref=e182]: 12/16/1999
+          - generic [ref=e183]:
+            - paragraph [ref=e185]: Gender
+            - paragraph [ref=e187]: Others
+        - generic [ref=e189]:
+          - generic [ref=e190]:
+            - generic [ref=e191]:
+              - img [ref=e192]
+              - heading "Career Snapshot" [level=6] [ref=e196]
+            - button [ref=e197] [cursor=pointer]:
+              - img [ref=e198]
+          - paragraph [ref=e202]: Detail-oriented SQA professional with a strong foundation in manual and automated testing, complemented by specialized skills in API validation and Load testing. Eager to join a dynamic team and apply strategic test planning and rigorous defect management to ensure the delivery of flawless software.
+        - generic [ref=e204]:
+          - generic [ref=e206]:
+            - img [ref=e207]
+            - heading "Work Experience" [level=6] [ref=e209]
+          - generic [ref=e210]:
+            - generic [ref=e211]:
+              - heading "Junior SQA Engineer" [level=6] [ref=e212]
+              - generic [ref=e213]:
+                - button [ref=e214] [cursor=pointer]:
+                  - img [ref=e215]
+                - button "Reviewed" [ref=e218] [cursor=pointer]:
+                  - img [ref=e220]
+                  - text: Reviewed
+            - generic [ref=e224]:
+              - paragraph [ref=e226]: Job Title
+              - paragraph [ref=e228]: Junior SQA Engineer
+            - generic [ref=e229]:
+              - paragraph [ref=e231]: Company Name
+              - paragraph [ref=e233]: Akij iBOS Limited
+            - generic [ref=e234]:
+              - paragraph [ref=e236]: Employment Type
+              - paragraph [ref=e238]: Full-time
+            - generic [ref=e239]:
+              - paragraph [ref=e241]: Is Current Job
+              - paragraph [ref=e243]: "Yes"
+            - generic [ref=e244]:
+              - paragraph [ref=e246]: Start Date
+              - paragraph [ref=e248]: 10/1/2024
+            - generic [ref=e249]:
+              - paragraph [ref=e251]: End Date
+              - paragraph [ref=e253]: Present
+            - generic [ref=e254]:
+              - paragraph [ref=e256]: Seniority Level
+              - paragraph [ref=e258]: Junior SQA Engineer
+            - generic [ref=e259]:
+              - paragraph [ref=e261]: Industry Type
+              - paragraph [ref=e263]: Creative & IT
+            - generic [ref=e264]:
+              - paragraph [ref=e266]: Department / Team
+              - paragraph [ref=e268]: SQA
+            - generic [ref=e269]:
+              - paragraph [ref=e271]: Company Location
+              - paragraph [ref=e273]: Dhaka
+            - generic [ref=e274]:
+              - paragraph [ref=e276]: Responsibilities
+              - paragraph [ref=e279]: Performed manual and automated testing for ERP, HRMS and AI-powered Job portal and recruitment applications. Reported and tracked defects, collaborating with development teams. Assisted in test case creation, execution, and regression testing. Supported User Acceptance Testing (UAT) and quality improvement initiatives.
+            - generic [ref=e280]:
+              - paragraph [ref=e282]: Key Achievements
+              - paragraph [ref=e285]: Professional SQA
+            - generic [ref=e286]:
+              - paragraph [ref=e288]: Current / Last Salary
+              - paragraph [ref=e290]: "30000"
+            - generic [ref=e291]:
+              - paragraph [ref=e293]: Notice Period
+              - paragraph [ref=e295]: 60 days
+          - generic [ref=e296]:
+            - generic [ref=e297]:
+              - heading "SQA Intern" [level=6] [ref=e298]
+              - button [ref=e300] [cursor=pointer]:
+                - img [ref=e301]
+            - generic [ref=e305]:
+              - paragraph [ref=e307]: Job Title
+              - paragraph [ref=e309]: SQA Intern
+            - generic [ref=e310]:
+              - paragraph [ref=e312]: Company Name
+              - paragraph [ref=e314]: Manhattan Tech
+            - generic [ref=e315]:
+              - paragraph [ref=e317]: Employment Type
+              - paragraph [ref=e319]: Full-time
+            - generic [ref=e320]:
+              - paragraph [ref=e322]: Is Current Job
+              - paragraph [ref=e324]: "No"
+            - generic [ref=e325]:
+              - paragraph [ref=e327]: Start Date
+              - paragraph [ref=e329]: 5/1/2024
+            - generic [ref=e330]:
+              - paragraph [ref=e332]: End Date
+              - paragraph [ref=e334]: 9/30/2024
+            - generic [ref=e335]:
+              - paragraph [ref=e337]: Seniority Level
+              - paragraph [ref=e339]: SQA Intern
+            - generic [ref=e340]:
+              - paragraph [ref=e342]: Industry Type
+              - paragraph [ref=e344]: Creative & IT
+            - generic [ref=e345]:
+              - paragraph [ref=e347]: Department / Team
+              - paragraph [ref=e349]: SQA
+            - generic [ref=e350]:
+              - paragraph [ref=e352]: Company Location
+              - paragraph [ref=e354]: USA(Remote)
+            - generic [ref=e355]:
+              - paragraph [ref=e357]: Responsibilities
+              - paragraph [ref=e360]: Assisted in testing, defect tracking, and quality assurance for various applications. Gained expertise in automation testing.
+            - generic [ref=e361]:
+              - paragraph [ref=e363]: Key Achievements
+              - paragraph [ref=e366]: Learning Professional Automation Testing
+            - generic [ref=e367]:
+              - paragraph [ref=e369]: Current / Last Salary
+              - paragraph [ref=e371]: "15000"
+            - generic [ref=e372]:
+              - paragraph [ref=e374]: Notice Period
+              - paragraph [ref=e376]: 15 days
+          - button "Add Another Work Experience" [ref=e377] [cursor=pointer]:
+            - img [ref=e379]
+            - text: Add Another Work Experience
+        - generic [ref=e383]:
+          - generic [ref=e385]:
+            - img [ref=e386]
+            - heading "Education" [level=6] [ref=e390]
+          - generic [ref=e391]:
+            - generic [ref=e392]:
+              - heading "Bachelor of Science" [level=6] [ref=e393]
+              - button [ref=e394] [cursor=pointer]:
+                - img [ref=e395]
+            - generic [ref=e399]:
+              - paragraph [ref=e401]: Level of Education
+              - paragraph [ref=e403]: Bachelor / Honours
+            - generic [ref=e404]:
+              - paragraph [ref=e406]: Institution / University Name
+              - paragraph [ref=e408]: Bangladesh University
+            - generic [ref=e409]:
+              - paragraph [ref=e411]: Degree / Examination
+              - paragraph [ref=e413]: Bachelor of Science
+            - generic [ref=e414]:
+              - paragraph [ref=e416]: Major / Concentration
+              - paragraph [ref=e418]: Software
+            - generic [ref=e419]:
+              - paragraph [ref=e421]: Passing Year
+              - paragraph [ref=e423]: "2022"
+            - generic [ref=e424]:
+              - paragraph [ref=e426]: Result Type
+              - paragraph [ref=e428]: GPA / CGPA
+            - generic [ref=e429]:
+              - paragraph [ref=e431]: Result
+              - paragraph [ref=e433]: "3.73"
+            - generic [ref=e434]:
+              - paragraph [ref=e436]: Grade Scale
+              - paragraph [ref=e438]: "4"
+            - generic [ref=e439]:
+              - paragraph [ref=e441]: Academic Achievement
+              - generic [ref=e443]: Complete Thesis
+          - button "Add Another Education" [ref=e444] [cursor=pointer]:
+            - img [ref=e446]
+            - text: Add Another Education
+        - generic [ref=e450]:
+          - generic [ref=e451]:
+            - generic [ref=e452]:
+              - img [ref=e453]
+              - heading "Skills & Expertise" [level=6] [ref=e458]
+            - button [ref=e459] [cursor=pointer]:
+              - img [ref=e460]
+          - generic [ref=e463]:
+            - generic [ref=e465]: Manual Testing
+            - generic [ref=e467]: SDLC and STLC
+            - generic [ref=e469]: Requirement analysis
+            - generic [ref=e471]: Test planning
+            - generic [ref=e473]: Test case design
+            - generic [ref=e475]: Test execution
+            - generic [ref=e477]: Technical and reporting
+            - generic [ref=e479]: Bug management
+            - generic [ref=e481]: API Testing
+            - generic [ref=e483]: Automation Testing Tools
+            - generic [ref=e485]: Performance Testing Tool
+            - generic [ref=e487]: Database Testing
+            - generic [ref=e489]: Version Control
+            - generic [ref=e491]: Programming Languages
+            - generic [ref=e493]: Project Management Tools
+          - button "Add Another Skill" [ref=e494] [cursor=pointer]:
+            - img [ref=e496]
+            - text: Add Another Skill
+        - generic [ref=e499]:
+          - generic [ref=e500]:
+            - generic [ref=e502]:
+              - img [ref=e503]
+              - heading "Training and Certification" [level=6] [ref=e507]
+            - generic [ref=e508]:
+              - generic [ref=e509]:
+                - heading "Advanced SQA and Cybersecurity" [level=6] [ref=e510]
+                - button [ref=e511] [cursor=pointer]:
+                  - img [ref=e512]
+              - generic [ref=e515]:
+                - paragraph [ref=e517]: Training / Certification Title
+                - paragraph [ref=e519]: Advanced SQA and Cybersecurity
+              - generic [ref=e520]:
+                - paragraph [ref=e522]: Online or Offline
+                - paragraph [ref=e524]: Online
+              - generic [ref=e525]:
+                - paragraph [ref=e527]: Issuing Organization
+                - paragraph [ref=e529]: IT Training BD
+              - generic [ref=e530]:
+                - paragraph [ref=e532]: Country (If Offline)
+                - paragraph [ref=e534]: N/A
+              - generic [ref=e535]:
+                - paragraph [ref=e537]: Date Issued
+                - paragraph [ref=e539]: 9/11/2024
+              - generic [ref=e540]:
+                - paragraph [ref=e542]: Duration
+                - paragraph [ref=e544]: 6 months
+              - generic [ref=e545]:
+                - paragraph [ref=e547]: Expiry Date
+                - paragraph [ref=e549]: No Expiry
+              - generic [ref=e550]:
+                - paragraph [ref=e552]: Credential
+                - paragraph [ref=e554]:
+                  - link "https://drive.google.com/file/d/1Vc5p8FZMUpmBK4HD8GlqA5IXYK-NfuUv/view?usp=drive_link" [ref=e555] [cursor=pointer]:
+                    - /url: https://drive.google.com/file/d/1Vc5p8FZMUpmBK4HD8GlqA5IXYK-NfuUv/view?usp=drive_link
+              - generic [ref=e556]:
+                - paragraph [ref=e558]: Certificate Image / PDF Upload
+                - paragraph [ref=e560]: Uploaded
+            - button "Add Another Certification" [ref=e561] [cursor=pointer]:
+              - img [ref=e563]
+              - text: Add Another Certification
+          - generic [ref=e566]:
+            - generic [ref=e568]:
+              - img [ref=e569]
+              - heading "Projects" [level=6] [ref=e573]
+            - button "Add Project" [ref=e574] [cursor=pointer]:
+              - img [ref=e576]
+              - text: Add Project
+          - generic [ref=e579]:
+            - generic [ref=e581]:
+              - img [ref=e582]
+              - heading "Club and Volunteer Experience" [level=6] [ref=e586]
+            - button "Add Club and Volunteer Experience" [ref=e587] [cursor=pointer]:
+              - img [ref=e589]
+              - text: Add Club and Volunteer Experience
+          - generic [ref=e592]:
+            - generic [ref=e593]:
+              - generic [ref=e594]:
+                - img [ref=e595]
+                - heading "Portfolio/ Links" [level=6] [ref=e600]
+              - button [ref=e601] [cursor=pointer]:
+                - img [ref=e602]
+            - generic [ref=e606]:
+              - paragraph [ref=e608]: LinkedIn
+              - paragraph [ref=e610]:
+                - link "https://www.linkedin.com/in/anik16298" [ref=e611] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/in/anik16298
+            - button "Add Another Link" [ref=e612] [cursor=pointer]:
+              - img [ref=e614]
+              - text: Add Another Link
+          - generic [ref=e617]:
+            - generic [ref=e619]:
+              - img [ref=e620]
+              - heading "Accomplishment" [level=6] [ref=e624]
+            - button "Add Accomplishment" [ref=e625] [cursor=pointer]:
+              - img [ref=e627]
+              - text: Add Accomplishment
+          - generic [ref=e630]:
+            - generic [ref=e631]:
+              - generic [ref=e632]:
+                - img [ref=e633]
+                - heading "Availability and Job Preferences" [level=6] [ref=e637]
+              - button [ref=e638] [cursor=pointer]:
+                - img [ref=e639]
+            - generic [ref=e642]:
+              - paragraph [ref=e644]: Availability
+              - paragraph [ref=e646]: 2 Months
+            - generic [ref=e647]:
+              - paragraph [ref=e649]: Expected Salary (Monthly)
+              - paragraph [ref=e651]: "50000"
+            - generic [ref=e652]:
+              - paragraph [ref=e654]: Preferred Industry Type
+              - generic [ref=e658]: Software Product
+            - generic [ref=e659]:
+              - paragraph [ref=e661]: Preferred Job Type
+              - generic [ref=e665]: Full-Time
+            - generic [ref=e666]:
+              - paragraph [ref=e668]: Preferred Job Level
+              - generic [ref=e672]: Executive / Officer
+            - generic [ref=e673]:
+              - paragraph [ref=e675]: Preferred Job Categories
+              - generic [ref=e677]:
+                - generic [ref=e679]: IT
+                - generic [ref=e681]: Software
+                - generic [ref=e683]: SQA
+            - generic [ref=e684]:
+              - paragraph [ref=e686]: Preferred Job Locations
+              - generic [ref=e690]: Dhaka
+            - generic [ref=e691]:
+              - paragraph [ref=e693]: Preferred Organization Type
+              - generic [ref=e695]:
+                - generic [ref=e697]: Startup
+                - generic [ref=e699]: Private
+            - generic [ref=e700]:
+              - paragraph [ref=e702]: Desired Employment Type
+              - generic [ref=e704]:
+                - generic [ref=e706]: On-Site
+                - generic [ref=e708]: Hybrid
+                - generic [ref=e710]: Remote
+            - generic [ref=e711]:
+              - paragraph [ref=e713]: Preferred Shift
+              - generic [ref=e715]:
+                - generic [ref=e717]: Day
+                - generic [ref=e719]: Night
+                - generic [ref=e721]: Rotational
+            - generic [ref=e722]:
+              - paragraph [ref=e724]: Willing to Relocate
+              - paragraph [ref=e726]: "Yes"
+            - generic [ref=e727]:
+              - paragraph [ref=e729]: Preferred Country
+              - generic [ref=e733]: Malaysia
+          - generic [ref=e734]:
+            - generic [ref=e736]:
+              - img [ref=e737]
+              - heading "Language" [level=6] [ref=e741]
+            - generic [ref=e742]:
+              - generic [ref=e743]:
+                - heading "English" [level=6] [ref=e744]
+                - button [ref=e745] [cursor=pointer]:
+                  - img [ref=e746]
+              - generic [ref=e749]:
+                - paragraph [ref=e751]: Language Name
+                - paragraph [ref=e753]: English
+              - generic [ref=e754]:
+                - paragraph [ref=e756]: Reading Level
+                - paragraph [ref=e758]: Good
+              - generic [ref=e759]:
+                - paragraph [ref=e761]: Writing Level
+                - paragraph [ref=e763]: Basic
+              - generic [ref=e764]:
+                - paragraph [ref=e766]: Speaking Level
+                - paragraph [ref=e768]: Good
+            - generic [ref=e769]:
+              - generic [ref=e770]:
+                - heading "Spanish" [level=6] [ref=e771]
+                - button [ref=e772] [cursor=pointer]:
+                  - img [ref=e773]
+              - generic [ref=e776]:
+                - paragraph [ref=e778]: Language Name
+                - paragraph [ref=e780]: Spanish
+              - generic [ref=e781]:
+                - paragraph [ref=e783]: Reading Level
+                - paragraph [ref=e785]: Good
+              - generic [ref=e786]:
+                - paragraph [ref=e788]: Writing Level
+                - paragraph [ref=e790]: Fluent
+              - generic [ref=e791]:
+                - paragraph [ref=e793]: Speaking Level
+                - paragraph [ref=e795]: Good
+            - generic [ref=e796]:
+              - generic [ref=e797]:
+                - heading "Bangla" [level=6] [ref=e798]
+                - button [ref=e799] [cursor=pointer]:
+                  - img [ref=e800]
+              - generic [ref=e803]:
+                - paragraph [ref=e805]: Language Name
+                - paragraph [ref=e807]: Bangla
+              - generic [ref=e808]:
+                - paragraph [ref=e810]: Reading Level
+                - paragraph [ref=e812]: Good
+              - generic [ref=e813]:
+                - paragraph [ref=e815]: Writing Level
+                - paragraph [ref=e817]: Good
+              - generic [ref=e818]:
+                - paragraph [ref=e820]: Speaking Level
+                - paragraph [ref=e822]: Fluent
+            - button "Add Another Language" [ref=e823] [cursor=pointer]:
+              - img [ref=e825]
+              - text: Add Another Language
+          - generic [ref=e828]:
+            - generic [ref=e830]:
+              - img [ref=e831]
+              - heading "Reference" [level=6] [ref=e834]
+            - generic [ref=e835]:
+              - generic [ref=e836]:
+                - heading "Avishek Bhowmick" [level=6] [ref=e837]
+                - button [ref=e838] [cursor=pointer]:
+                  - img [ref=e839]
+              - generic [ref=e842]:
+                - paragraph [ref=e844]: Organization Name
+                - paragraph [ref=e846]: Akij iBOS
+              - generic [ref=e847]:
+                - paragraph [ref=e849]: Designation / Position
+                - paragraph [ref=e851]: Senior SQA
+              - generic [ref=e852]:
+                - paragraph [ref=e854]: Email Address
+                - paragraph [ref=e856]: avishek@ibos.io
+              - generic [ref=e857]:
+                - paragraph [ref=e859]: Phone Number
+                - paragraph [ref=e861]: "01532659812"
+              - generic [ref=e862]:
+                - paragraph [ref=e864]: Relationship
+                - paragraph [ref=e866]: Colleague
+            - generic [ref=e867]:
+              - generic [ref=e868]:
+                - heading "Ehsanul Alam Sabbir" [level=6] [ref=e869]
+                - button [ref=e870] [cursor=pointer]:
+                  - img [ref=e871]
+              - generic [ref=e874]:
+                - paragraph [ref=e876]: Organization Name
+                - paragraph [ref=e878]: Vivasoft Limited
+              - generic [ref=e879]:
+                - paragraph [ref=e881]: Designation / Position
+                - paragraph [ref=e883]: Staff SQA Enginner
+              - generic [ref=e884]:
+                - paragraph [ref=e886]: Email Address
+                - paragraph [ref=e888]: easabbir@gmail.com
+              - generic [ref=e889]:
+                - paragraph [ref=e891]: Phone Number
+                - paragraph [ref=e893]: "01670102216"
+              - generic [ref=e894]:
+                - paragraph [ref=e896]: Relationship
+                - paragraph [ref=e898]: Mentor
+          - generic [ref=e900]:
+            - generic [ref=e901]:
+              - generic [ref=e902]:
+                - img [ref=e903]
+                - heading "Other Information" [level=6] [ref=e907]
+              - button [ref=e908] [cursor=pointer]:
+                - img [ref=e909]
+            - generic [ref=e912]:
+              - paragraph [ref=e914]: Father's Name
+              - paragraph [ref=e916]: Swapan Chakraborty
+            - generic [ref=e917]:
+              - paragraph [ref=e919]: Father's Occupation
+              - paragraph [ref=e921]: N/A
+            - generic [ref=e922]:
+              - paragraph [ref=e924]: Mother's Name
+              - paragraph [ref=e926]: Shilpi Chakraborty
+            - generic [ref=e927]:
+              - paragraph [ref=e929]: Mother's Occupation
+              - paragraph [ref=e931]: N/A
+            - generic [ref=e932]:
+              - paragraph [ref=e934]: Marital Status
+              - paragraph [ref=e936]: Single
+            - generic [ref=e937]:
+              - paragraph [ref=e939]: Religion
+              - paragraph [ref=e941]: Hinduism
+            - generic [ref=e942]:
+              - paragraph [ref=e944]: National ID (NID)
+              - paragraph [ref=e946]: "5555395812"
+            - generic [ref=e947]:
+              - paragraph [ref=e949]: Nationality
+              - paragraph [ref=e951]: Bangladeshi
+            - generic [ref=e952]:
+              - paragraph [ref=e954]: Alternate Mobile Number
+              - paragraph [ref=e956]: N/A
+            - generic [ref=e957]:
+              - paragraph [ref=e959]: Passport Number
+              - paragraph [ref=e961]: N/A
+      - generic [ref=e963]:
+        - generic [ref=e964]:
+          - paragraph [ref=e965]: or
+          - heading "Choose from the template" [level=5] [ref=e966]
+        - generic [ref=e967]:
+          - generic [ref=e968] [cursor=pointer]:
+            - generic [ref=e974]:
+              - button "Download" [ref=e975]:
+                - img [ref=e977]
+                - text: Download
+              - button "Preview" [ref=e980]:
+                - img [ref=e982]
+                - text: Preview
+            - generic [ref=e985]:
+              - button [ref=e986]
+              - paragraph [ref=e988]: Set as default
+          - generic [ref=e989] [cursor=pointer]:
+            - generic [ref=e995]:
+              - button "Download" [ref=e996]:
+                - img [ref=e998]
+                - text: Download
+              - button "Preview" [ref=e1001]:
+                - img [ref=e1003]
+                - text: Preview
+            - generic [ref=e1006]:
+              - button [ref=e1007]
+              - paragraph [ref=e1008]: Set as default
+          - generic [ref=e1009] [cursor=pointer]:
+            - generic [ref=e1015]:
+              - button "Download" [ref=e1016]:
+                - img [ref=e1018]
+                - text: Download
+              - button "Preview" [ref=e1021]:
+                - img [ref=e1023]
+                - text: Preview
+            - generic [ref=e1026]:
+              - button [ref=e1027]
+              - paragraph [ref=e1028]: Set as default
+          - generic [ref=e1030] [cursor=pointer]:
+            - generic [ref=e1034]:
+              - button "Replace" [ref=e1035]:
+                - img [ref=e1037]
+                - text: Replace
+              - button "Preview" [ref=e1039]:
+                - img [ref=e1041]
+                - text: Preview
+            - generic [ref=e1047]:
+              - button [ref=e1048]
+              - paragraph [ref=e1049]: Set as default
+    - contentinfo "Site footer" [ref=e1050]:
+      - generic [ref=e1052]:
+        - generic [ref=e1053]:
+          - generic [ref=e1054]:
+            - link "App Logo" [ref=e1055] [cursor=pointer]:
+              - /url: /
+              - img "App Logo" [ref=e1056]
+            - generic [ref=e1057]:
+              - paragraph [ref=e1058]: "Follow Us :"
+              - navigation "Social media links" [ref=e1059]:
+                - link "Follow nextjobz on Facebook" [ref=e1060] [cursor=pointer]:
+                  - /url: https://www.facebook.com/nextjobz
+                  - img [ref=e1061]
+                - link "Follow nextjobz on X" [ref=e1063] [cursor=pointer]:
+                  - /url: https://www.x.com/@nextjobz
+                  - img [ref=e1064]
+                - link "Follow nextjobz on Instagram" [ref=e1066] [cursor=pointer]:
+                  - /url: https://www.instagram.com/next.jobz
+                  - img [ref=e1067]
+                - link "Follow nextjobz on LinkedIn" [ref=e1071] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/next-jobz
+                  - img [ref=e1072]
+                - link "Follow nextjobz on YouTube" [ref=e1075] [cursor=pointer]:
+                  - /url: https://www.youtube.com/@nextjobz
+                  - img [ref=e1076]
+          - navigation "Footer navigation" [ref=e1079]:
+            - generic [ref=e1080]:
+              - heading "Company" [level=3] [ref=e1081]
+              - list [ref=e1082]:
+                - listitem [ref=e1083]:
+                  - link "About Us" [ref=e1084] [cursor=pointer]:
+                    - /url: /about-us
+                - listitem [ref=e1085]:
+                  - link "Our Team" [ref=e1086] [cursor=pointer]:
+                    - /url: /our-team
+                - listitem [ref=e1087]:
+                  - link "Contact" [ref=e1088] [cursor=pointer]:
+                    - /url: /contact-us
+                - listitem [ref=e1089]:
+                  - link "Terms of Service" [ref=e1090] [cursor=pointer]:
+                    - /url: /terms-of-use
+                - listitem [ref=e1091]:
+                  - link "Privacy Policy" [ref=e1092] [cursor=pointer]:
+                    - /url: /privacyPolicy
+                - listitem [ref=e1093]:
+                  - link "Refund Policy" [ref=e1094] [cursor=pointer]:
+                    - /url: /refund-policy
+            - generic [ref=e1095]:
+              - heading "Employers" [level=3] [ref=e1096]
+              - list [ref=e1097]:
+                - listitem [ref=e1098]:
+                  - link "Services" [ref=e1099] [cursor=pointer]:
+                    - /url: https://employers.nextjobz.com.bd/employer#key-services
+                - listitem [ref=e1100]:
+                  - link "Head Hunting" [ref=e1101] [cursor=pointer]:
+                    - /url: /headhunting
+                - listitem [ref=e1102]:
+                  - link "Learning Lab" [ref=e1103] [cursor=pointer]:
+                    - /url: /learning-lab
+                - listitem [ref=e1104]:
+                  - link "Hiring Advice" [ref=e1105] [cursor=pointer]:
+                    - /url: /hiring-advice
+                - listitem [ref=e1106]:
+                  - link "FAQ" [ref=e1107] [cursor=pointer]:
+                    - /url: /faq
+            - generic [ref=e1108]:
+              - heading "Job Seekers" [level=3] [ref=e1109]
+              - list [ref=e1110]:
+                - listitem [ref=e1111]:
+                  - link "Jobz" [ref=e1112] [cursor=pointer]:
+                    - /url: /jobs
+                - listitem [ref=e1113]:
+                  - link "Mid Career" [ref=e1114] [cursor=pointer]:
+                    - /url: /mid-career
+                - listitem [ref=e1115]:
+                  - link "Career Abroad" [ref=e1116] [cursor=pointer]:
+                    - /url: /career-abound
+                - listitem [ref=e1117]:
+                  - link "Learning Lab" [ref=e1118] [cursor=pointer]:
+                    - /url: /learning-lab
+                - listitem [ref=e1119]:
+                  - link "Career Guidance" [ref=e1120] [cursor=pointer]:
+                    - /url: /career-guidance
+            - generic [ref=e1121]:
+              - heading "Need any support?" [level=3] [ref=e1122]
+              - generic [ref=e1123]:
+                - generic [ref=e1124]:
+                  - img [ref=e1126]
+                  - generic [ref=e1129]: 198 Bir Uttam, Mir Shawkat Sarak, Gulshan Link Road, Tejgaon, Dhaka-1208.
+                - generic [ref=e1130]:
+                  - img [ref=e1132]
+                  - link "+88 01335172200" [ref=e1135] [cursor=pointer]:
+                    - /url: https://wa.me/8801335172200
+                - generic [ref=e1136]:
+                  - img [ref=e1138]
+                  - link "support@nextjobz.work" [ref=e1141] [cursor=pointer]:
+                    - /url: mailto:support@nextjobz.work?subject=Need%20Help&body=
+        - separator [ref=e1142]
+        - generic [ref=e1143]:
+          - paragraph [ref=e1144]: Copyright © 2026, All Rights Reserved by nextjobz Ltd.
+          - generic [ref=e1145]:
+            - paragraph [ref=e1146]: "Powered by:"
+            - img "Akij Resource — parent company of nextjobz" [ref=e1147]
+```

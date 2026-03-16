@@ -1,0 +1,15 @@
+Sections visibility: {
+  "Personal Details": true,
+  "Career Snapshot": true,
+  "Work Experience": true,
+  "Education": true,
+  "Skills & Expertise": true,
+  "Training and Certification": true,
+  "Projects": true,
+  "Club and Volunteer Experience": true,
+  "Portfolio/ Links": true,
+  "Availability and Job Preferences": true,
+  "Language": true,
+  "Reference": true,
+  "Other Information": true
+}
