@@ -18,7 +18,7 @@
 
 Driven by a rigorous **Page Object Model (POM)** and fortified with security best practices, this framework ensures reliability across every release. It serves as a strategic asset, delivering rapid feedback loops and actionable intelligence through advanced reporting, empowering Nextjobz to deliver digital excellence with confidence.
 
-### Complex Automation Focus
+### 🤖 Complex Automation Focus
 
 - End-to-end job seeker journeys that stitch together login, profile completion, CV building, search, apply, and post-application verification in a single flow.
 - Data-driven personas (via `.env` + `ConfigProvider`) to cover role-specific branching logic without duplicating tests.
